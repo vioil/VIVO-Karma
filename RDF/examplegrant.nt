@@ -1,0 +1,33 @@
+<http://vivo.northwestern.edu/individual/n8e1497dc> <http://purl.obolibrary.org/obo/RO_0000053> <http://vivo.northwestern.edu/individual/n8e1497dc_role> .
+<http://vivo.northwestern.edu/individual/n2dec06e9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n2dec06e9> <http://vivoweb.org/ontology/core#relatedBy> <http://vivo.northwestern.edu/individual/n1440213> .
+<http://vivo.northwestern.edu/individual/n2dec06e9> <http://www.w3.org/2000/01/rdf-schema#label> "Sadav, Manjit S." .
+<http://vivo.northwestern.edu/individual/n8e1497dc_role> <http://vivoweb.org/ontology/core#relatedBy> <http://vivo.northwestern.edu/individual/n1440213> .
+<http://vivo.northwestern.edu/individual/nc81ef44_role> <http://vivoweb.org/ontology/core#relatedBy> <http://vivo.northwestern.edu/individual/n1440213> .
+<http://vivo.northwestern.edu/individual/n1440213> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nc81ef44> .
+<http://vivo.northwestern.edu/individual/n1440213> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8e1497dc_role> .
+<http://vivo.northwestern.edu/individual/nc81ef44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n2dec06e9_role> <http://vivoweb.org/ontology/core#relatedBy> <http://vivo.northwestern.edu/individual/n1440213> .
+<http://vivo.northwestern.edu/individual/n1440213> <http://www.w3.org/2000/01/rdf-schema#label> "Example VIVO Grant" .
+<http://vivo.northwestern.edu/individual/n2dec06e9_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#PrincipalInvestigatorRole> .
+<http://vivo.northwestern.edu/individual/n1440213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Grant> .
+<http://vivo.northwestern.edu/individual/norg194fe9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#GovernmentAgency> .
+<http://vivo.northwestern.edu/individual/nc81ef44> <http://purl.obolibrary.org/obo/RO_0000053> <http://vivo.northwestern.edu/individual/nc81ef44_role> .
+<http://vivo.northwestern.edu/individual/norg194fe9> <http://vivoweb.org/ontology/core#assigns> <http://vivo.northwestern.edu/individual/n1440213> .
+<http://vivo.northwestern.edu/individual/n1440213> <http://vivoweb.org/ontology/core#sponsorAwardId> "ICER-1440213" .
+<http://vivo.northwestern.edu/individual/n1440213> <http://vivoweb.org/ontology/core#totalAwardAmount> "123456" .
+<http://vivo.northwestern.edu/individual/n8e1497dc_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AdministratorRole> .
+<http://vivo.northwestern.edu/individual/n8e1497dc_role> <http://purl.obolibrary.org/obo/RO_0000052> <http://vivo.northwestern.edu/individual/n8e1497dc> .
+<http://vivo.northwestern.edu/individual/n1440213> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2dec06e9_role> .
+<http://vivo.northwestern.edu/individual/n1440213> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2dec06e9> .
+<http://vivo.northwestern.edu/individual/n8e1497dc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/individual/n2dec06e9_role> <http://purl.obolibrary.org/obo/RO_0000052> <http://vivo.northwestern.edu/individual/n2dec06e9> .
+<http://vivo.northwestern.edu/individual/nc81ef44_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#CoPrincipalInvestigatorRole> .
+<http://vivo.northwestern.edu/individual/nc81ef44> <http://vivoweb.org/ontology/core#relatedBy> <http://vivo.northwestern.edu/individual/n1440213> .
+<http://vivo.northwestern.edu/individual/n2dec06e9> <http://purl.obolibrary.org/obo/RO_0000053> <http://vivo.northwestern.edu/individual/n2dec06e9_role> .
+<http://vivo.northwestern.edu/individual/nc81ef44_role> <http://purl.obolibrary.org/obo/RO_0000052> <http://vivo.northwestern.edu/individual/nc81ef44> .
+<http://vivo.northwestern.edu/individual/n8e1497dc> <http://www.w3.org/2000/01/rdf-schema#label> "Marketing" .
+<http://vivo.northwestern.edu/individual/nc81ef44> <http://www.w3.org/2000/01/rdf-schema#label> "German, Mindy E." .
+<http://vivo.northwestern.edu/individual/n1440213> <http://vivoweb.org/ontology/core#assignedBy> <http://vivo.northwestern.edu/individual/norg194fe9> .
+<http://vivo.northwestern.edu/individual/norg194fe9> <http://www.w3.org/2000/01/rdf-schema#label> "National Science Foundation" .
+<http://vivo.northwestern.edu/individual/n1440213> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nc81ef44_role> .

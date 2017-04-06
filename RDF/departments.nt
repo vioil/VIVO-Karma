@@ -1,0 +1,212 @@
+<http://vivo.northwestern.edu/n8b9df681> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n8b9df681> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "8b9df681" .
+<http://vivo.northwestern.edu/n8b9df681> <http://www.w3.org/2000/01/rdf-schema#label> "Accounting" .
+
+<http://vivo.northwestern.edu/ne5c84f0a> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "e5c84f0a" .
+<http://vivo.northwestern.edu/ne5c84f0a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/ne5c84f0a> <http://www.w3.org/2000/01/rdf-schema#label> "Aerospace Engineering" .
+
+<http://vivo.northwestern.edu/n2d953da5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n2d953da5> <http://www.w3.org/2000/01/rdf-schema#label> "Agriculture Leadership Education and Communication" .
+<http://vivo.northwestern.edu/n2d953da5> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "2d953da5" .
+
+<http://vivo.northwestern.edu/n2735b399> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n2735b399> <http://www.w3.org/2000/01/rdf-schema#label> "Animal Science" .
+<http://vivo.northwestern.edu/n2735b399> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "2735b399" .
+
+<http://vivo.northwestern.edu/n26ddd99c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n26ddd99c> <http://www.w3.org/2000/01/rdf-schema#label> "Anthropology" .
+<http://vivo.northwestern.edu/n26ddd99c> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "26ddd99c" .
+
+<http://vivo.northwestern.edu/n3c372a44> <http://www.w3.org/2000/01/rdf-schema#label> "Architecture" .
+<http://vivo.northwestern.edu/n3c372a44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n3c372a44> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "3c372a44" .
+
+<http://vivo.northwestern.edu/n2833755e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n2833755e> <http://www.w3.org/2000/01/rdf-schema#label> "Atmospheric Sciences" .
+<http://vivo.northwestern.edu/n2833755e> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "2833755e" .
+
+<http://vivo.northwestern.edu/nf4046369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nf4046369> <http://www.w3.org/2000/01/rdf-schema#label> "Biochemistry and Biophysics" .
+<http://vivo.northwestern.edu/nf4046369> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "f4046369" .
+
+<http://vivo.northwestern.edu/n2884689f> <http://www.w3.org/2000/01/rdf-schema#label> "Biological and Agricultural Engineering" .
+<http://vivo.northwestern.edu/n2884689f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n2884689f> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "2884689f" .
+
+<http://vivo.northwestern.edu/n533de40b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n533de40b> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "533de40b" .
+<http://vivo.northwestern.edu/n533de40b> <http://www.w3.org/2000/01/rdf-schema#label> "Biology" .
+
+<http://vivo.northwestern.edu/n7518c091> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "7518c091" .
+<http://vivo.northwestern.edu/n7518c091> <http://www.w3.org/2000/01/rdf-schema#label> "Biomedical Engineering" .
+<http://vivo.northwestern.edu/n7518c091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/n3d066602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n3d066602> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "3d066602" .
+<http://vivo.northwestern.edu/n3d066602> <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry" .
+
+<http://vivo.northwestern.edu/na96ec482> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "a96ec482" .
+<http://vivo.northwestern.edu/na96ec482> <http://www.w3.org/2000/01/rdf-schema#label> "Civil Engineering" .
+<http://vivo.northwestern.edu/na96ec482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/nac3e839c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nac3e839c> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "ac3e839c" .
+<http://vivo.northwestern.edu/nac3e839c> <http://www.w3.org/2000/01/rdf-schema#label> "Computer Science" .
+
+<http://vivo.northwestern.edu/n52bbb58c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n52bbb58c> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "52bbb58c" .
+<http://vivo.northwestern.edu/n52bbb58c> <http://www.w3.org/2000/01/rdf-schema#label> "Construction Science" .
+
+<http://vivo.northwestern.edu/n9b0ead26> <http://www.w3.org/2000/01/rdf-schema#label> "Department of Communication" .
+<http://vivo.northwestern.edu/n9b0ead26> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "9b0ead26" .
+<http://vivo.northwestern.edu/n9b0ead26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/nf55b14ad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nf55b14ad> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "f55b14ad" .
+<http://vivo.northwestern.edu/nf55b14ad> <http://www.w3.org/2000/01/rdf-schema#label> "Economics" .
+
+<http://vivo.northwestern.edu/n2872677a> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "2872677a" .
+<http://vivo.northwestern.edu/n2872677a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n2872677a> <http://www.w3.org/2000/01/rdf-schema#label> "Ecosystem Science and Management" .
+
+<http://vivo.northwestern.edu/n8153433f> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "8153433f" .
+<http://vivo.northwestern.edu/n8153433f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n8153433f> <http://www.w3.org/2000/01/rdf-schema#label> "Educational Administration and Human Resource Development" .
+
+<http://vivo.northwestern.edu/n364e823b> <http://www.w3.org/2000/01/rdf-schema#label> "Educational Psychology" .
+<http://vivo.northwestern.edu/n364e823b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n364e823b> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "364e823b" .
+
+<http://vivo.northwestern.edu/n2d633240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n2d633240> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "2d633240" .
+<http://vivo.northwestern.edu/n2d633240> <http://www.w3.org/2000/01/rdf-schema#label> "Electrical and Computer Engineering" .
+
+<http://vivo.northwestern.edu/n7048878f> <http://www.w3.org/2000/01/rdf-schema#label> "Engineering Technology and Industrial Distribution" .
+<http://vivo.northwestern.edu/n7048878f> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "7048878f" .
+<http://vivo.northwestern.edu/n7048878f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/n91770559> <http://www.w3.org/2000/01/rdf-schema#label> "English" .
+<http://vivo.northwestern.edu/n91770559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n91770559> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "91770559" .
+
+<http://vivo.northwestern.edu/n2d222064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n2d222064> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "2d222064" .
+<http://vivo.northwestern.edu/n2d222064> <http://www.w3.org/2000/01/rdf-schema#label> "Entomology" .
+
+<http://vivo.northwestern.edu/nea8f9be9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nea8f9be9> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "ea8f9be9" .
+<http://vivo.northwestern.edu/nea8f9be9> <http://www.w3.org/2000/01/rdf-schema#label> "Finance" .
+
+<http://vivo.northwestern.edu/na6291061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/na6291061> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "a6291061" .
+<http://vivo.northwestern.edu/na6291061> <http://www.w3.org/2000/01/rdf-schema#label> "Geography" .
+
+<http://vivo.northwestern.edu/n4c1f64aa> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "4c1f64aa" .
+<http://vivo.northwestern.edu/n4c1f64aa> <http://www.w3.org/2000/01/rdf-schema#label> "Geology and Geophysics" .
+<http://vivo.northwestern.edu/n4c1f64aa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/nef68c136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nef68c136> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "ef68c136" .
+<http://vivo.northwestern.edu/nef68c136> <http://www.w3.org/2000/01/rdf-schema#label> "Health and Kinesiology" .
+
+<http://vivo.northwestern.edu/n4d01014a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n4d01014a> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "4d01014a" .
+<http://vivo.northwestern.edu/n4d01014a> <http://www.w3.org/2000/01/rdf-schema#label> "History" .
+
+<http://vivo.northwestern.edu/n224add21> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "224add21" .
+<http://vivo.northwestern.edu/n224add21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n224add21> <http://www.w3.org/2000/01/rdf-schema#label> "Horticultural Science" .
+
+<http://vivo.northwestern.edu/n90de7d78> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "90de7d78" .
+<http://vivo.northwestern.edu/n90de7d78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n90de7d78> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial and Systems Engineering" .
+
+<http://vivo.northwestern.edu/nfb02a5ae> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "fb02a5ae" .
+<http://vivo.northwestern.edu/nfb02a5ae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nfb02a5ae> <http://www.w3.org/2000/01/rdf-schema#label> "Information and Operations Management" .
+
+<http://vivo.northwestern.edu/n4f9163cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n4f9163cf> <http://www.w3.org/2000/01/rdf-schema#label> "Large Animal Clinical Sciences" .
+<http://vivo.northwestern.edu/n4f9163cf> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "4f9163cf" .
+
+<http://vivo.northwestern.edu/n390956d8> <http://www.w3.org/2000/01/rdf-schema#label> "Management" .
+<http://vivo.northwestern.edu/n390956d8> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "390956d8" .
+<http://vivo.northwestern.edu/n390956d8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/n8e1497dc> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "8e1497dc" .
+<http://vivo.northwestern.edu/n8e1497dc> <http://www.w3.org/2000/01/rdf-schema#label> "Marketing" .
+<http://vivo.northwestern.edu/n8e1497dc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/n377fce7d> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "377fce7d" .
+<http://vivo.northwestern.edu/n377fce7d> <http://www.w3.org/2000/01/rdf-schema#label> "Mathematics" .
+<http://vivo.northwestern.edu/n377fce7d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/n1ec41847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n1ec41847> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "1ec41847" .
+<http://vivo.northwestern.edu/n1ec41847> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanical Engineering" .
+
+<http://vivo.northwestern.edu/nc2b21c54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nc2b21c54> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "c2b21c54" .
+<http://vivo.northwestern.edu/nc2b21c54> <http://www.w3.org/2000/01/rdf-schema#label> "Nuclear Engineering" .
+
+<http://vivo.northwestern.edu/n94905f86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n94905f86> <http://www.w3.org/2000/01/rdf-schema#label> "Oceanography" .
+<http://vivo.northwestern.edu/n94905f86> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "94905f86" .
+
+<http://vivo.northwestern.edu/n1b945f59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n1b945f59> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "1b945f59" .
+<http://vivo.northwestern.edu/n1b945f59> <http://www.w3.org/2000/01/rdf-schema#label> "Petroleum Engineering" .
+
+<http://vivo.northwestern.edu/nf1153653> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "f1153653" .
+<http://vivo.northwestern.edu/nf1153653> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nf1153653> <http://www.w3.org/2000/01/rdf-schema#label> "Philosophy and Humanities" .
+
+<http://vivo.northwestern.edu/n59444c74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n59444c74> <http://www.w3.org/2000/01/rdf-schema#label> "Physics and Astronomy" .
+<http://vivo.northwestern.edu/n59444c74> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "59444c74" .
+
+<http://vivo.northwestern.edu/n9e87cc7b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n9e87cc7b> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "9e87cc7b" .
+<http://vivo.northwestern.edu/n9e87cc7b> <http://www.w3.org/2000/01/rdf-schema#label> "Political Science" .
+
+<http://vivo.northwestern.edu/nf5352f2f> <http://www.w3.org/2000/01/rdf-schema#label> "Psychology" .
+<http://vivo.northwestern.edu/nf5352f2f> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "f5352f2f" .
+<http://vivo.northwestern.edu/nf5352f2f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/ne0412e57> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "e0412e57" .
+<http://vivo.northwestern.edu/ne0412e57> <http://www.w3.org/2000/01/rdf-schema#label> "Recreation, Parks, and Tourism Science" .
+<http://vivo.northwestern.edu/ne0412e57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/nf22c2cf7> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "f22c2cf7" .
+<http://vivo.northwestern.edu/nf22c2cf7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nf22c2cf7> <http://www.w3.org/2000/01/rdf-schema#label> "Small Animal Clinical Sciences" .
+
+<http://vivo.northwestern.edu/n9e5eea38> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "9e5eea38" .
+<http://vivo.northwestern.edu/n9e5eea38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n9e5eea38> <http://www.w3.org/2000/01/rdf-schema#label> "Sociology" .
+
+<http://vivo.northwestern.edu/nee598d70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/nee598d70> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "ee598d70" .
+<http://vivo.northwestern.edu/nee598d70> <http://www.w3.org/2000/01/rdf-schema#label> "Statistics" .
+
+<http://vivo.northwestern.edu/n58750032> <http://www.w3.org/2000/01/rdf-schema#label> "Teaching Learning and Culture" .
+<http://vivo.northwestern.edu/n58750032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n58750032> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "58750032" .
+
+<http://vivo.northwestern.edu/n21aae1c6> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Integrative Biosciences" .
+<http://vivo.northwestern.edu/n21aae1c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n21aae1c6> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "21aae1c6" .
+
+<http://vivo.northwestern.edu/n329894a2> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Pathobiology" .
+<http://vivo.northwestern.edu/n329894a2> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "329894a2" .
+<http://vivo.northwestern.edu/n329894a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+
+<http://vivo.northwestern.edu/n38381a9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#AcademicDepartment> .
+<http://vivo.northwestern.edu/n38381a9e> <http://vivo.northwestern.edu/ontology/vlocal#orgID> "38381a9e" .
+<http://vivo.northwestern.edu/n38381a9e> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Physiology and Pharmacology" .
+
+
+
+
+

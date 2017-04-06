@@ -1,0 +1,1 @@
+return "http://vivo.northwestern.edu/individual/" + getValue("Publication Date1")

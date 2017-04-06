@@ -1,0 +1,49 @@
+<http://vivo.northwestern.edu/individual/12345> <http://vivo.northwestern.edu/ontology/vlocal#fullAuthorList> "Melissa P Metz; Xiaoyu Qu; Brian Laffin; David Earnest; Weston W. Harter" .
+<http://vivo.northwestern.edu/individual/n12345> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/90e6f6c0> .
+<http://vivo.northwestern.edu/individual/0041-008x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Journal> .
+<http://vivo.northwestern.edu/individual/2003-08-11T00:00:00> <http://vivoweb.org/ontology/core#dateTime> " 2003-08-11T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vivo.northwestern.edu/individual/12345> <http://purl.org/ontology/bibo/pageEnd> "271" .
+<http://vivo.northwestern.edu/individual/12345> <http://purl.org/ontology/bibo/pmid> "34567" .
+<http://vivo.northwestern.edu/individual/12345> <http://purl.org/ontology/bibo/issue> "1" .
+<http://vivo.northwestern.edu/individual/12345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/AcademicArticle> .
+<http://vivo.northwestern.edu/individual/12345> <http://vivoweb.org/ontology/core#dateTimeValue> <http://vivo.northwestern.edu/individual/2003-08-11T00:00:00> .
+<http://vivo.northwestern.edu/individual/n12345> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/12345> .
+<http://vivo.northwestern.edu/individual/12345> <http://purl.org/ontology/bibo/numPages> "8" .
+<http://vivo.northwestern.edu/individual/2003-08-11T00:00:00> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> .
+<http://vivo.northwestern.edu/individual/n12345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.northwestern.edu/individual/12345> <http://vivoweb.org/ontology/core#pmcid> "PMC12345" .
+<http://vivo.northwestern.edu/individual/0041-008x> <http://www.w3.org/2000/01/rdf-schema#label> "Toxicology And Applied Pharmacology" .
+<http://vivo.northwestern.edu/individual/12345> <http://purl.org/ontology/bibo/pageStart> "263" .
+<http://vivo.northwestern.edu/individual/12345> <http://purl.org/ontology/bibo/volume> "23" .
+<http://vivo.northwestern.edu/individual/12345> <http://vivoweb.org/ontology/core#dateTime> "2003" .
+<http://vivo.northwestern.edu/individual/2003-08-11T00:00:00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> .
+<http://vivo.northwestern.edu/individual/12345> <http://vivoweb.org/ontology/core#hasPublicationVenue> <http://vivo.northwestern.edu/individual/0041-008x> .
+<http://vivo.northwestern.edu/individual/12345> <http://vivo.northwestern.edu/ontology/vlocal#meshTerms> "Animals; Animals Newborn/genetics; Animals Newborn/growth and development; Animals Newborn/metabolism; Biological Clocks/genetics; Cell Cycle/genetics; Genetic Markers;" .
+<http://vivo.northwestern.edu/individual/90e6f6c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/12345> <http://purl.org/ontology/bibo/doi> "10.1016/j.taap.2008.10.016" .
+<http://vivo.northwestern.edu/individual/12345> <http://www.w3.org/2000/01/rdf-schema#label> "Disruption Of Period Gene Expression Alters The Inductive Effects Of Dioxin On The Ahr Signaling Pathway In The Mouse Liver" .
+
+<http://vivo.northwestern.edu/individual/n23456> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/90e6f6c0> .
+<http://vivo.northwestern.edu/individual/0378-4274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Journal> .
+<http://vivo.northwestern.edu/individual/23456> <http://purl.org/ontology/bibo/volume> "30" .
+<http://vivo.northwestern.edu/individual/n23456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.northwestern.edu/individual/23456> <http://purl.org/ontology/bibo/issue> "1" .
+<http://vivo.northwestern.edu/individual/n23456> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/23456> .
+<http://vivo.northwestern.edu/individual/23456> <http://purl.org/ontology/bibo/doi> "10.1016/j.toxlet.2012.01.022" .
+<http://vivo.northwestern.edu/individual/0378-4274> <http://www.w3.org/2000/01/rdf-schema#label> "Toxicology Letters" .
+<http://vivo.northwestern.edu/individual/23456> <http://vivo.northwestern.edu/ontology/vlocal#fullAuthorList> "Melissa P Metz; Xiaoyu Qu; Brian Laffin; David Earnest; Weston W. Harter" .
+<http://vivo.northwestern.edu/individual/23456> <http://purl.org/ontology/bibo/pageStart> "58" .
+<http://vivo.northwestern.edu/individual/23456> <http://vivoweb.org/ontology/core#pmcid> "PMC23456" .
+<http://vivo.northwestern.edu/individual/23456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/AcademicArticle> .
+<http://vivo.northwestern.edu/individual/23456> <http://www.w3.org/2000/01/rdf-schema#label> "Distinct Immunomodulatory Effects Of A Panel Of Nanomaterials In Human Dermal Fibroblasts" .
+<http://vivo.northwestern.edu/individual/23456> <http://vivoweb.org/ontology/core#dateTimeValue> <http://vivo.northwestern.edu/individual/2006-02-01T00:00:00> .
+<http://vivo.northwestern.edu/individual/23456> <http://vivoweb.org/ontology/core#dateTime> "2006" .
+<http://vivo.northwestern.edu/individual/2006-02-01T00:00:00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> .
+<http://vivo.northwestern.edu/individual/2006-02-01T00:00:00> <http://vivoweb.org/ontology/core#dateTime> " 2006-02-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vivo.northwestern.edu/individual/23456> <http://purl.org/ontology/bibo/pageEnd> "66" .
+<http://vivo.northwestern.edu/individual/23456> <http://purl.org/ontology/bibo/pmid> "45678" .
+<http://vivo.northwestern.edu/individual/23456> <http://vivo.northwestern.edu/ontology/vlocal#meshTerms> "Adult; Aflatoxins/metabolism; Aflatoxins/poisoning; Age Factors; Aged; Environmental Monitoring; Female; Ghana;" .
+<http://vivo.northwestern.edu/individual/23456> <http://purl.org/ontology/bibo/numPages> "8" .
+<http://vivo.northwestern.edu/individual/23456> <http://vivoweb.org/ontology/core#hasPublicationVenue> <http://vivo.northwestern.edu/individual/0378-4274> .
+<http://vivo.northwestern.edu/individual/90e6f6c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/2006-02-01T00:00:00> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivoweb.org/ontology/core#yearPrecision> .

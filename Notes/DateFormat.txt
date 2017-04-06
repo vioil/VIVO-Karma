@@ -1,0 +1,1 @@
+Change date into w3c standard format:  yyyy-mm-ddThh:mm:ss

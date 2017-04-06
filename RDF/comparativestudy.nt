@@ -1,0 +1,49 @@
+<http://vivo.northwestern.edu/individual/n8470> <http://vivo.northwestern.edu/ontology/vlocal#meshTerms> "Animals; Animals Newborn/genetics; Animals Newborn/growth and development; Animals Newborn/metabolism; Biological Clocks/genetics; Cell Cycle/genetics; Genetic Markers;" .
+<http://vivo.northwestern.edu/n847090e6f6c0> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n90e6f6c0> .
+<http://vivo.northwestern.edu/n847090e6f6c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.northwestern.edu/individual/n8470> <http://purl.org/ontology/bibo/numPages> "8" .
+<http://vivo.northwestern.edu/individual/n8470> <http://purl.org/ontology/bibo/doi> "10.1002/dvdy.20605" .
+<http://vivo.northwestern.edu/individual/n8470> <http://purl.org/ontology/bibo/volume> "235" .
+<http://vivo.northwestern.edu/individual/n1058-8388> <http://www.w3.org/2000/01/rdf-schema#label> "Developmental Dynamics" .
+<http://vivo.northwestern.edu/individual/n8470> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivo.northwestern.edu/ontology/vlocal#ComparativeStudy> .
+<http://vivo.northwestern.edu/individual/n8470> <http://vivoweb.org/ontology/core#dateTime> "2004" .
+<http://vivo.northwestern.edu/individual/n8470> <http://purl.org/ontology/bibo/issue> "1" .
+<http://vivo.northwestern.edu/individual/n8470> <http://vivo.northwestern.edu/ontology/vlocal#fullAuthorList> "Melissa P Metz; Xiaoyu Qu; Brian Laffin; David Earnest; Weston W. Harter" .
+<http://vivo.northwestern.edu/individual/n8470> <http://purl.org/ontology/bibo/pageStart> "263" .
+<http://vivo.northwestern.edu/n847090e6f6c0> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8470> .
+<http://vivo.northwestern.edu/individual/n8470> <http://purl.org/ontology/bibo/pageEnd> "271" .
+<http://vivo.northwestern.edu/individual/2004-08-11T00:00:00> <http://vivoweb.org/ontology/core#dateTime> " 2004-08-11T00:00:00" .
+<http://vivo.northwestern.edu/individual/2004-08-11T00:00:00> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivo.northwestern.edu/individual/nhttp://www.w3.org/2001/XMLSchema#http://vivoweb.org/ontology/core#yearPrecision> .
+<http://vivo.northwestern.edu/individual/n8470> <http://vivoweb.org/ontology/core#pmcid> "PMC2712121" .
+<http://vivo.northwestern.edu/individual/n1058-8388> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Journal> .
+<http://vivo.northwestern.edu/individual/n90e6f6c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n8470> <http://purl.org/ontology/bibo/pmid> "15306695" .
+<http://vivo.northwestern.edu/individual/2004-08-11T00:00:00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> .
+<http://vivo.northwestern.edu/individual/n8470> <http://vivoweb.org/ontology/core#dateTimeValue> <http://vivo.northwestern.edu/individual/2004-08-11T00:00:00> .
+<http://vivo.northwestern.edu/individual/n8470> <http://vivoweb.org/ontology/core#hasPublicationVenue> <http://vivo.northwestern.edu/individual/n1058-8388> .
+<http://vivo.northwestern.edu/individual/n8470> <http://www.w3.org/2000/01/rdf-schema#label> "Circadian Clock And Cell Cycle Gene Expression In Mouse Mammary Epithelial Cells And In The Developing Mouse Mammary Gland" .
+
+<http://vivo.northwestern.edu/individual/n15912> <http://vivoweb.org/ontology/core#hasPublicationVenue> <http://vivo.northwestern.edu/individual/n1528-7394> .
+<http://vivo.northwestern.edu/individual/2007-02-01T00:00:00> <http://vivoweb.org/ontology/core#dateTimePrecision> <http://vivo.northwestern.edu/individual/nhttp://www.w3.org/2001/XMLSchema#http://vivoweb.org/ontology/core#yearPrecision> .
+<http://vivo.northwestern.edu/individual/n15912> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivo.northwestern.edu/ontology/vlocal#ComparativeStudy> .
+<http://vivo.northwestern.edu/individual/n15912> <http://purl.org/ontology/bibo/volume> "70" .
+<http://vivo.northwestern.edu/individual/n15912> <http://www.w3.org/2000/01/rdf-schema#label> "Determinants of the Variability Of Aflatoxin-albumin Adduct Levels In Ghanaians" .
+<http://vivo.northwestern.edu/individual/n15912> <http://purl.org/ontology/bibo/numPages> "8" .
+<http://vivo.northwestern.edu/individual/n15912> <http://purl.org/ontology/bibo/pmid> "18178591" .
+<http://vivo.northwestern.edu/individual/n15912> <http://vivo.northwestern.edu/ontology/vlocal#fullAuthorList> "Melissa P Metz; Xiaoyu Qu; Brian Laffin; David Earnest; Weston W. Harter" .
+<http://vivo.northwestern.edu/n1591290e6f6c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Authorship> .
+<http://vivo.northwestern.edu/individual/n1528-7394> <http://www.w3.org/2000/01/rdf-schema#label> "Journal Of Toxicology And Environmental Health Part A" .
+<http://vivo.northwestern.edu/n1591290e6f6c0> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n15912> .
+<http://vivo.northwestern.edu/individual/n15912> <http://purl.org/ontology/bibo/doi> "10.1080/15287390600748880" .
+<http://vivo.northwestern.edu/individual/n15912> <http://purl.org/ontology/bibo/pageStart> "58" .
+<http://vivo.northwestern.edu/individual/2007-02-01T00:00:00> <http://vivoweb.org/ontology/core#dateTime> " 2007-02-01T00:00:00" .
+<http://vivo.northwestern.edu/individual/n1528-7394> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Journal> .
+<http://vivo.northwestern.edu/individual/n15912> <http://vivoweb.org/ontology/core#dateTime> "2007" .
+<http://vivo.northwestern.edu/individual/n15912> <http://purl.org/ontology/bibo/pageEnd> "66" .
+<http://vivo.northwestern.edu/individual/n15912> <http://purl.org/ontology/bibo/issue> "1" .
+<http://vivo.northwestern.edu/n1591290e6f6c0> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n90e6f6c0> .
+<http://vivo.northwestern.edu/individual/2007-02-01T00:00:00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#DateTimeValue> .
+<http://vivo.northwestern.edu/individual/n90e6f6c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n15912> <http://vivo.northwestern.edu/ontology/vlocal#meshTerms> "Adult; Aflatoxins/metabolism; Aflatoxins/poisoning; Age Factors; Aged; Environmental Monitoring; Female; Ghana;" .
+<http://vivo.northwestern.edu/individual/n15912> <http://vivoweb.org/ontology/core#pmcid> "PMC2241869" .
+<http://vivo.northwestern.edu/individual/n15912> <http://vivoweb.org/ontology/core#dateTimeValue> <http://vivo.northwestern.edu/individual/2007-02-01T00:00:00> .

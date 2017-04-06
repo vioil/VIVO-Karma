@@ -1,0 +1,1 @@
+return "http://vivo.northwestern/position/n"+getValue("UID")+"_"+getValue("org_ID")+"_"+getValue("position_type").replace(" ","_")

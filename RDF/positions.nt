@@ -1,0 +1,935 @@
+<http://vivo.northwestern.edu/individual/n2dec06e9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n2dec06e9_8e1497dc_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8e1497dc> .
+<http://vivo.northwestern.edu/individual/n8e1497dc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n2dec06e9_8e1497dc_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n8e1497dc> <http://www.w3.org/2000/01/rdf-schema#label> "Marketing" .
+<http://vivo.northwestern.edu/individual/n2dec06e9> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/n2dec06e9_8e1497dc_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2dec06e9> .
+<http://vivo.northwestern/position/n2dec06e9_8e1497dc_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern/position/nc81ef444_f5352f2f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nc81ef444> .
+<http://vivo.northwestern/position/nc81ef444_f5352f2f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf5352f2f> .
+<http://vivo.northwestern.edu/individual/nf5352f2f> <http://www.w3.org/2000/01/rdf-schema#label> "Psychology" .
+<http://vivo.northwestern.edu/individual/nc81ef444> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern.edu/individual/nf5352f2f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nc81ef444_f5352f2f_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nc81ef444_f5352f2f_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nc81ef444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern/position/n5c2cef0e_1ec41847_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n5c2cef0e> .
+<http://vivo.northwestern/position/n5c2cef0e_1ec41847_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n1ec41847> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanical Engineering" .
+<http://vivo.northwestern.edu/individual/n1ec41847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n5c2cef0e_1ec41847_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n5c2cef0e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n5c2cef0e> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern/position/n5c2cef0e_1ec41847_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n1ec41847> .
+
+<http://vivo.northwestern/position/nb6f25071_ef68c136_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nef68c136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nb6f25071_ef68c136_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nef68c136> .
+<http://vivo.northwestern/position/nb6f25071_ef68c136_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nef68c136> <http://www.w3.org/2000/01/rdf-schema#label> "Health and Kinesiology" .
+<http://vivo.northwestern/position/nb6f25071_ef68c136_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nb6f25071> .
+<http://vivo.northwestern.edu/individual/nb6f25071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nb6f25071> <http://vivoweb.org/ontology/core#hrJobTitle> "Clinical Associate Professor" .
+
+<http://vivo.northwestern/position/n613870d1_533de40b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n613870d1> .
+<http://vivo.northwestern/position/n613870d1_533de40b_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n613870d1> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern.edu/individual/n613870d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n613870d1_533de40b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n533de40b> .
+<http://vivo.northwestern/position/n613870d1_533de40b_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n533de40b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n533de40b> <http://www.w3.org/2000/01/rdf-schema#label> "Biology" .
+
+<http://vivo.northwestern/position/n980e771d_331ec525_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n331ec525> .
+<http://vivo.northwestern/position/n980e771d_331ec525_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n331ec525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n980e771d_331ec525_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n980e771d> .
+<http://vivo.northwestern.edu/individual/n980e771d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n980e771d_331ec525_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n980e771d> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern.edu/individual/n331ec525> <http://www.w3.org/2000/01/rdf-schema#label> "Bush School of Government and Public Service" .
+
+<http://vivo.northwestern/position/nea52a51f_7048878f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n7048878f> .
+<http://vivo.northwestern/position/nea52a51f_7048878f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nea52a51f> .
+<http://vivo.northwestern.edu/individual/nea52a51f> <http://vivoweb.org/ontology/core#hrJobTitle> "Visiting Associate Professor" .
+<http://vivo.northwestern.edu/individual/n7048878f> <http://www.w3.org/2000/01/rdf-schema#label> "Engineering Technology and Industrial Distribution" .
+<http://vivo.northwestern.edu/individual/n7048878f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nea52a51f_7048878f_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nea52a51f_7048878f_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nea52a51f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern.edu/individual/n90de7d78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n0bcb050f_90de7d78_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n0bcb050f_90de7d78_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n0bcb050f> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/n90de7d78> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial and Systems Engineering" .
+<http://vivo.northwestern.edu/individual/n0bcb050f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n0bcb050f_90de7d78_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n90de7d78> .
+<http://vivo.northwestern/position/n0bcb050f_90de7d78_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n0bcb050f> .
+
+<http://vivo.northwestern/position/n3c8aa927_329894a2_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n3c8aa927> .
+<http://vivo.northwestern.edu/individual/n3c8aa927> <http://vivoweb.org/ontology/core#hrJobTitle> "Clinical Assistant Professor" .
+<http://vivo.northwestern/position/n3c8aa927_329894a2_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n3c8aa927_329894a2_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n329894a2> .
+<http://vivo.northwestern.edu/individual/n329894a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n3c8aa927_329894a2_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n329894a2> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Pathobiology" .
+<http://vivo.northwestern.edu/individual/n3c8aa927> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern/position/ne4fec57c_e0412e57_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne0412e57> .
+<http://vivo.northwestern/position/ne4fec57c_e0412e57_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/ne0412e57> <http://www.w3.org/2000/01/rdf-schema#label> "Recreation, Parks, and Tourism Science" .
+<http://vivo.northwestern.edu/individual/ne4fec57c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/ne4fec57c_e0412e57_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/ne4fec57c> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/ne0412e57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/ne4fec57c_e0412e57_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne4fec57c> .
+
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/2000/01/rdf-schema#label> "Qatar Executive Management" .
+<http://vivo.northwestern/position/nf9f641f8_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf9f641f8> .
+<http://vivo.northwestern.edu/individual/nf9f641f8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nf9f641f8_e49738ce_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nf9f641f8_e49738ce_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nf9f641f8_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne49738ce> .
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/nf9f641f8> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+
+<http://vivo.northwestern/position/nde1f2aed_fb6c9e2c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nde1f2aed> .
+<http://vivo.northwestern/position/nde1f2aed_fb6c9e2c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nfb6c9e2c> .
+<http://vivo.northwestern/position/nde1f2aed_fb6c9e2c_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nde1f2aed> <http://vivoweb.org/ontology/core#hrJobTitle> "Clinical Associate Professor" .
+<http://vivo.northwestern.edu/individual/nde1f2aed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nfb6c9e2c> <http://www.w3.org/2000/01/rdf-schema#label> "University Libraries" .
+<http://vivo.northwestern.edu/individual/nfb6c9e2c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nde1f2aed_fb6c9e2c_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/na6291061> <http://www.w3.org/2000/01/rdf-schema#label> "Geography" .
+<http://vivo.northwestern/position/n6edf97c6_a6291061_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/na6291061> .
+<http://vivo.northwestern.edu/individual/n6edf97c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/na6291061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n6edf97c6_a6291061_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n6edf97c6> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/n6edf97c6_a6291061_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n6edf97c6_a6291061_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n6edf97c6> .
+
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/2000/01/rdf-schema#label> "Qatar Executive Management" .
+<http://vivo.northwestern/position/nd6f8c320_e49738ce_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nd6f8c320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nd6f8c320> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nd6f8c320_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nd6f8c320> .
+<http://vivo.northwestern/position/nd6f8c320_e49738ce_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nd6f8c320_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne49738ce> .
+
+<http://vivo.northwestern.edu/individual/nf22c2cf7> <http://www.w3.org/2000/01/rdf-schema#label> "Small Animal Clinical Sciences" .
+<http://vivo.northwestern/position/nc7f9a04d_f22c2cf7_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf22c2cf7> .
+<http://vivo.northwestern.edu/individual/nc7f9a04d> <http://vivoweb.org/ontology/core#hrJobTitle> "Clinical Assistant Professor" .
+<http://vivo.northwestern.edu/individual/nc7f9a04d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nc7f9a04d_f22c2cf7_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nf22c2cf7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nc7f9a04d_f22c2cf7_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nc7f9a04d_f22c2cf7_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nc7f9a04d> .
+
+<http://vivo.northwestern/position/n0a2d481f_ea8f9be9_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n0a2d481f> .
+<http://vivo.northwestern/position/n0a2d481f_ea8f9be9_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nea8f9be9> <http://www.w3.org/2000/01/rdf-schema#label> "Finance" .
+<http://vivo.northwestern/position/n0a2d481f_ea8f9be9_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nea8f9be9> .
+<http://vivo.northwestern/position/n0a2d481f_ea8f9be9_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nea8f9be9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n0a2d481f> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern.edu/individual/n0a2d481f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern/position/nfed03dd1_ef68c136_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nef68c136> .
+<http://vivo.northwestern.edu/individual/nef68c136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nfed03dd1_ef68c136_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nfed03dd1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nef68c136> <http://www.w3.org/2000/01/rdf-schema#label> "Health and Kinesiology" .
+<http://vivo.northwestern.edu/individual/nfed03dd1> <http://vivoweb.org/ontology/core#hrJobTitle> "Instructional Assistant Professor" .
+<http://vivo.northwestern/position/nfed03dd1_ef68c136_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nfed03dd1> .
+<http://vivo.northwestern/position/nfed03dd1_ef68c136_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern/position/nd2caf464_c2b21c54_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nd2caf464> .
+<http://vivo.northwestern.edu/individual/nd2caf464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nd2caf464_c2b21c54_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nc2b21c54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nd2caf464_c2b21c54_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nd2caf464> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/nc2b21c54> <http://www.w3.org/2000/01/rdf-schema#label> "Nuclear Engineering" .
+<http://vivo.northwestern/position/nd2caf464_c2b21c54_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nc2b21c54> .
+
+<http://vivo.northwestern.edu/individual/n2884689f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n786fc0f3_2884689f_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n786fc0f3_2884689f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2884689f> .
+<http://vivo.northwestern.edu/individual/n786fc0f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n786fc0f3_2884689f_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n2884689f> <http://www.w3.org/2000/01/rdf-schema#label> "Biological and Agricultural Engineering" .
+<http://vivo.northwestern.edu/individual/n786fc0f3> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern/position/n786fc0f3_2884689f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n786fc0f3> .
+
+<http://vivo.northwestern.edu/individual/n9ed54600> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/n3d066602> <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry" .
+<http://vivo.northwestern/position/n9ed54600_3d066602_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n3d066602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n9ed54600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n9ed54600_3d066602_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9ed54600> .
+<http://vivo.northwestern/position/n9ed54600_3d066602_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n3d066602> .
+<http://vivo.northwestern/position/n9ed54600_3d066602_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/n5e728236> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/n5e728236_1b945f59_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n5e728236_1b945f59_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n5e728236> .
+<http://vivo.northwestern/position/n5e728236_1b945f59_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n1b945f59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n5e728236_1b945f59_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n1b945f59> .
+<http://vivo.northwestern.edu/individual/n1b945f59> <http://www.w3.org/2000/01/rdf-schema#label> "Petroleum Engineering" .
+<http://vivo.northwestern.edu/individual/n5e728236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern.edu/individual/nf53479a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nf53479a0_2d953da5_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf53479a0> .
+<http://vivo.northwestern/position/nf53479a0_2d953da5_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nf53479a0> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/nf53479a0_2d953da5_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nf53479a0_2d953da5_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2d953da5> .
+<http://vivo.northwestern.edu/individual/n2d953da5> <http://www.w3.org/2000/01/rdf-schema#label> "Agriculture Leadership Education and Communication" .
+<http://vivo.northwestern.edu/individual/n2d953da5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/2000/01/rdf-schema#label> "Qatar Executive Management" .
+<http://vivo.northwestern.edu/individual/n6df86023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n6df86023_e49738ce_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n6df86023_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n6df86023> .
+<http://vivo.northwestern/position/n6df86023_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne49738ce> .
+<http://vivo.northwestern/position/n6df86023_e49738ce_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n6df86023> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+
+<http://vivo.northwestern/position/n9c75f491_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9c75f491> .
+<http://vivo.northwestern.edu/individual/n9c75f491> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/2000/01/rdf-schema#label> "Mathematics" .
+<http://vivo.northwestern/position/n9c75f491_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n377fce7d> .
+<http://vivo.northwestern/position/n9c75f491_377fce7d_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n9c75f491_377fce7d_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n9c75f491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern.edu/individual/n52bbb58c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n7f4e9eb4_52bbb58c_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n52bbb58c> <http://www.w3.org/2000/01/rdf-schema#label> "Construction Science" .
+<http://vivo.northwestern/position/n7f4e9eb4_52bbb58c_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n7f4e9eb4_52bbb58c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n52bbb58c> .
+<http://vivo.northwestern/position/n7f4e9eb4_52bbb58c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n7f4e9eb4> .
+<http://vivo.northwestern.edu/individual/n7f4e9eb4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n7f4e9eb4> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+
+<http://vivo.northwestern.edu/individual/nec810b24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nec810b24_58750032_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nec810b24> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/nec810b24_58750032_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n58750032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n58750032> <http://www.w3.org/2000/01/rdf-schema#label> "Teaching Learning and Culture" .
+<http://vivo.northwestern/position/nec810b24_58750032_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nec810b24> .
+<http://vivo.northwestern/position/nec810b24_58750032_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n58750032> .
+
+<http://vivo.northwestern.edu/individual/nb2c12cd3> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern.edu/individual/n364e823b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/nb2c12cd3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nb2c12cd3_364e823b_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nb2c12cd3_364e823b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n364e823b> .
+<http://vivo.northwestern/position/nb2c12cd3_364e823b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nb2c12cd3> .
+<http://vivo.northwestern/position/nb2c12cd3_364e823b_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n364e823b> <http://www.w3.org/2000/01/rdf-schema#label> "Educational Psychology" .
+
+<http://vivo.northwestern.edu/individual/nbd6831b8> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/nbd6831b8_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n377fce7d> .
+<http://vivo.northwestern/position/nbd6831b8_377fce7d_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/2000/01/rdf-schema#label> "Mathematics" .
+<http://vivo.northwestern.edu/individual/nbd6831b8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nbd6831b8_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nbd6831b8> .
+<http://vivo.northwestern/position/nbd6831b8_377fce7d_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/n3d066602> <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry" .
+<http://vivo.northwestern/position/ne3bd8752_3d066602_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n3d066602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/ne3bd8752_3d066602_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne3bd8752> .
+<http://vivo.northwestern/position/ne3bd8752_3d066602_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/ne3bd8752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/ne3bd8752> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern/position/ne3bd8752_3d066602_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n3d066602> .
+
+<http://vivo.northwestern.edu/individual/n4ff5edcb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n4ff5edcb_3d066602_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n4ff5edcb> .
+<http://vivo.northwestern.edu/individual/n3d066602> <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry" .
+<http://vivo.northwestern/position/n4ff5edcb_3d066602_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n3d066602> .
+<http://vivo.northwestern.edu/individual/n3d066602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n4ff5edcb_3d066602_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n4ff5edcb> <http://vivoweb.org/ontology/core#hrJobTitle> "Senior Lecturer" .
+<http://vivo.northwestern/position/n4ff5edcb_3d066602_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/n8bf8898a> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern.edu/individual/n4f9163cf> <http://www.w3.org/2000/01/rdf-schema#label> "Large Animal Clinical Sciences" .
+<http://vivo.northwestern.edu/individual/n4f9163cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n8bf8898a_4f9163cf_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n4f9163cf> .
+<http://vivo.northwestern/position/n8bf8898a_4f9163cf_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n8bf8898a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n8bf8898a_4f9163cf_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8bf8898a> .
+<http://vivo.northwestern/position/n8bf8898a_4f9163cf_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/nce238e6e> <http://vivoweb.org/ontology/core#hrJobTitle> "Instructional Assistant Professor" .
+<http://vivo.northwestern/position/nce238e6e_9e5eea38_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nce238e6e> .
+<http://vivo.northwestern.edu/individual/n9e5eea38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n9e5eea38> <http://www.w3.org/2000/01/rdf-schema#label> "Sociology" .
+<http://vivo.northwestern/position/nce238e6e_9e5eea38_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nce238e6e_9e5eea38_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9e5eea38> .
+<http://vivo.northwestern/position/nce238e6e_9e5eea38_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nce238e6e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern/position/n4.33E+12_a96ec482_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n4.33E+12_a96ec482_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n4.33E+12> .
+<http://vivo.northwestern.edu/individual/na96ec482> <http://www.w3.org/2000/01/rdf-schema#label> "Civil Engineering" .
+<http://vivo.northwestern.edu/individual/n4.33E+12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n4.33E+12> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/na96ec482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n4.33E+12_a96ec482_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/na96ec482> .
+<http://vivo.northwestern/position/n4.33E+12_a96ec482_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/nf2751f8b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nf2751f8b> <http://vivoweb.org/ontology/core#hrJobTitle> "Senior Lecturer" .
+<http://vivo.northwestern/position/nf2751f8b_390956d8_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf2751f8b> .
+<http://vivo.northwestern/position/nf2751f8b_390956d8_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nf2751f8b_390956d8_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n390956d8> .
+<http://vivo.northwestern.edu/individual/n390956d8> <http://www.w3.org/2000/01/rdf-schema#label> "Management" .
+<http://vivo.northwestern.edu/individual/n390956d8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nf2751f8b_390956d8_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/n2d222064> <http://www.w3.org/2000/01/rdf-schema#label> "Entomology" .
+<http://vivo.northwestern/position/n40f09614_2d222064_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2d222064> .
+<http://vivo.northwestern.edu/individual/n40f09614> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/n40f09614_2d222064_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n40f09614_2d222064_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n40f09614> .
+<http://vivo.northwestern.edu/individual/n2d222064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n40f09614_2d222064_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n40f09614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern.edu/individual/n8da37bea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n8da37bea_ac3e839c_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nac3e839c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n8da37bea_ac3e839c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8da37bea> .
+<http://vivo.northwestern/position/n8da37bea_ac3e839c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nac3e839c> .
+<http://vivo.northwestern.edu/individual/nac3e839c> <http://www.w3.org/2000/01/rdf-schema#label> "Computer Science" .
+<http://vivo.northwestern.edu/individual/n8da37bea> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/n8da37bea_ac3e839c_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/2000/01/rdf-schema#label> "Qatar Executive Management" .
+<http://vivo.northwestern/position/n262ead89_e49738ce_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n262ead89_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n262ead89> .
+<http://vivo.northwestern.edu/individual/n262ead89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n262ead89_e49738ce_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n262ead89_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne49738ce> .
+<http://vivo.northwestern.edu/individual/n262ead89> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+
+<http://vivo.northwestern/position/n543231b1_ac3e839c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n543231b1> .
+<http://vivo.northwestern.edu/individual/n543231b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nac3e839c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n543231b1_ac3e839c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nac3e839c> .
+<http://vivo.northwestern/position/n543231b1_ac3e839c_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n543231b1_ac3e839c_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nac3e839c> <http://www.w3.org/2000/01/rdf-schema#label> "Computer Science" .
+<http://vivo.northwestern.edu/individual/n543231b1> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+
+<http://vivo.northwestern.edu/individual/nbf813378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nbf813378_fb02a5ae_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nbf813378> .
+<http://vivo.northwestern/position/nbf813378_fb02a5ae_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nfb02a5ae> .
+<http://vivo.northwestern.edu/individual/nfb02a5ae> <http://www.w3.org/2000/01/rdf-schema#label> "Information and Operations Management" .
+<http://vivo.northwestern.edu/individual/nbf813378> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern.edu/individual/nfb02a5ae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nbf813378_fb02a5ae_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nbf813378_fb02a5ae_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/na6291061> <http://www.w3.org/2000/01/rdf-schema#label> "Geography" .
+<http://vivo.northwestern/position/n84ce7aef_a6291061_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/na6291061> .
+<http://vivo.northwestern/position/n84ce7aef_a6291061_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n84ce7aef_a6291061_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/na6291061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n84ce7aef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n84ce7aef_a6291061_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n84ce7aef> .
+<http://vivo.northwestern.edu/individual/n84ce7aef> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+
+<http://vivo.northwestern.edu/individual/n42be1339> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern.edu/individual/na96ec482> <http://www.w3.org/2000/01/rdf-schema#label> "Civil Engineering" .
+<http://vivo.northwestern/position/n42be1339_a96ec482_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n42be1339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/na96ec482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n42be1339_a96ec482_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n42be1339> .
+<http://vivo.northwestern/position/n42be1339_a96ec482_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/na96ec482> .
+<http://vivo.northwestern/position/n42be1339_a96ec482_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern/position/nca61ede1_1ec41847_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nca61ede1> .
+<http://vivo.northwestern.edu/individual/nca61ede1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nca61ede1> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/nca61ede1_1ec41847_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n1ec41847> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanical Engineering" .
+<http://vivo.northwestern.edu/individual/n1ec41847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nca61ede1_1ec41847_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nca61ede1_1ec41847_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n1ec41847> .
+
+<http://vivo.northwestern/position/ne7ee497b_9e87cc7b_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n9e87cc7b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/ne7ee497b_9e87cc7b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9e87cc7b> .
+<http://vivo.northwestern.edu/individual/ne7ee497b> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern/position/ne7ee497b_9e87cc7b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne7ee497b> .
+<http://vivo.northwestern.edu/individual/n9e87cc7b> <http://www.w3.org/2000/01/rdf-schema#label> "Political Science" .
+<http://vivo.northwestern.edu/individual/ne7ee497b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/ne7ee497b_9e87cc7b_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/n7f8372f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n7f8372f3_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n377fce7d> .
+<http://vivo.northwestern/position/n7f8372f3_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n7f8372f3> .
+<http://vivo.northwestern.edu/individual/n7f8372f3> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/2000/01/rdf-schema#label> "Mathematics" .
+<http://vivo.northwestern/position/n7f8372f3_377fce7d_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n7f8372f3_377fce7d_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/n2872677a> <http://www.w3.org/2000/01/rdf-schema#label> "Ecosystem Science and Management" .
+<http://vivo.northwestern.edu/individual/n8.57E+08> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/n8.57E+08_2872677a_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n8.57E+08_2872677a_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8.57E+08> .
+<http://vivo.northwestern.edu/individual/n8.57E+08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n8.57E+08_2872677a_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2872677a> .
+<http://vivo.northwestern.edu/individual/n2872677a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n8.57E+08_2872677a_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/nc0f341af> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/n58750032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n58750032> <http://www.w3.org/2000/01/rdf-schema#label> "Teaching Learning and Culture" .
+<http://vivo.northwestern/position/nc0f341af_58750032_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nc0f341af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nc0f341af_58750032_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nc0f341af> .
+<http://vivo.northwestern/position/nc0f341af_58750032_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n58750032> .
+<http://vivo.northwestern/position/nc0f341af_58750032_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern/position/nfd023ba6_7048878f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n7048878f> .
+<http://vivo.northwestern/position/nfd023ba6_7048878f_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n7048878f> <http://www.w3.org/2000/01/rdf-schema#label> "Engineering Technology and Industrial Distribution" .
+<http://vivo.northwestern.edu/individual/n7048878f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/nfd023ba6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nfd023ba6> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/nfd023ba6_7048878f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nfd023ba6> .
+<http://vivo.northwestern/position/nfd023ba6_7048878f_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/nea8f9be9> <http://www.w3.org/2000/01/rdf-schema#label> "Finance" .
+<http://vivo.northwestern/position/n7a7aa175_ea8f9be9_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n7a7aa175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n7a7aa175_ea8f9be9_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n7a7aa175_ea8f9be9_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nea8f9be9> .
+<http://vivo.northwestern.edu/individual/nea8f9be9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n7a7aa175_ea8f9be9_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n7a7aa175> .
+<http://vivo.northwestern.edu/individual/n7a7aa175> <http://vivoweb.org/ontology/core#hrJobTitle> "Executive Professor" .
+
+<http://vivo.northwestern/position/n97af54fb_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n377fce7d> .
+<http://vivo.northwestern.edu/individual/n97af54fb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n97af54fb_377fce7d_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n97af54fb> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/2000/01/rdf-schema#label> "Mathematics" .
+<http://vivo.northwestern/position/n97af54fb_377fce7d_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n97af54fb_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n97af54fb> .
+
+<http://vivo.northwestern/position/n8422a439_e5c84f0a_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/ne5c84f0a> <http://www.w3.org/2000/01/rdf-schema#label> "Aerospace Engineering" .
+<http://vivo.northwestern.edu/individual/n8422a439> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/n8422a439_e5c84f0a_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n8422a439> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/ne5c84f0a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n8422a439_e5c84f0a_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8422a439> .
+<http://vivo.northwestern/position/n8422a439_e5c84f0a_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne5c84f0a> .
+
+<http://vivo.northwestern.edu/individual/n883c4cb7> <http://vivoweb.org/ontology/core#hrJobTitle> "Senior Lecturer" .
+<http://vivo.northwestern/position/n883c4cb7_377fce7d_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n883c4cb7_377fce7d_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n377fce7d> <http://www.w3.org/2000/01/rdf-schema#label> "Mathematics" .
+<http://vivo.northwestern.edu/individual/n883c4cb7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n883c4cb7_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n883c4cb7> .
+<http://vivo.northwestern/position/n883c4cb7_377fce7d_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n377fce7d> .
+
+<http://vivo.northwestern.edu/individual/n8153433f> <http://www.w3.org/2000/01/rdf-schema#label> "Educational Administration and Human Resource Development" .
+<http://vivo.northwestern.edu/individual/n8153433f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n430cacbc_8153433f_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n430cacbc> <http://vivoweb.org/ontology/core#hrJobTitle> "Adjunct Assistant Professor" .
+<http://vivo.northwestern/position/n430cacbc_8153433f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8153433f> .
+<http://vivo.northwestern/position/n430cacbc_8153433f_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n430cacbc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n430cacbc_8153433f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n430cacbc> .
+
+<http://vivo.northwestern.edu/individual/n38381a9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n38381a9e> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Physiology and Pharmacology" .
+<http://vivo.northwestern/position/nb20fdbd9_38381a9e_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nb20fdbd9> .
+<http://vivo.northwestern/position/nb20fdbd9_38381a9e_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nb20fdbd9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nb20fdbd9_38381a9e_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n38381a9e> .
+<http://vivo.northwestern.edu/individual/nb20fdbd9> <http://vivoweb.org/ontology/core#hrJobTitle> "Distinguished Professor" .
+<http://vivo.northwestern/position/nb20fdbd9_38381a9e_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/n4f9163cf> <http://www.w3.org/2000/01/rdf-schema#label> "Large Animal Clinical Sciences" .
+<http://vivo.northwestern/position/nc500baf1_4f9163cf_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n4f9163cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nc500baf1_4f9163cf_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nc500baf1> .
+<http://vivo.northwestern.edu/individual/nc500baf1> <http://vivoweb.org/ontology/core#hrJobTitle> "Veterinary Resident Instructor" .
+<http://vivo.northwestern.edu/individual/nc500baf1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nc500baf1_4f9163cf_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nc500baf1_4f9163cf_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n4f9163cf> .
+
+<http://vivo.northwestern/position/n9c4dca0b_1b234298_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9c4dca0b> .
+<http://vivo.northwestern/position/n9c4dca0b_1b234298_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n1b234298> <http://www.w3.org/2000/01/rdf-schema#label> "College of Engineering - Administration - Dean" .
+<http://vivo.northwestern/position/n9c4dca0b_1b234298_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n9c4dca0b> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor and Head" .
+<http://vivo.northwestern.edu/individual/n1b234298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n9c4dca0b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n9c4dca0b_1b234298_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n1b234298> .
+
+<http://vivo.northwestern.edu/individual/n9a25a80b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n9a25a80b> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/n9a25a80b_4d01014a_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n4d01014a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n4d01014a> <http://www.w3.org/2000/01/rdf-schema#label> "History" .
+<http://vivo.northwestern/position/n9a25a80b_4d01014a_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n9a25a80b_4d01014a_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9a25a80b> .
+<http://vivo.northwestern/position/n9a25a80b_4d01014a_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n4d01014a> .
+
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/2000/01/rdf-schema#label> "Qatar Executive Management" .
+<http://vivo.northwestern/position/n1921874d_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne49738ce> .
+<http://vivo.northwestern.edu/individual/n1921874d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n1921874d_e49738ce_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n1921874d> .
+<http://vivo.northwestern/position/n1921874d_e49738ce_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/ne49738ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n1921874d_e49738ce_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n1921874d> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+
+<http://vivo.northwestern/position/n274f2d27_ee598d70_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nee598d70> .
+<http://vivo.northwestern.edu/individual/nee598d70> <http://www.w3.org/2000/01/rdf-schema#label> "Statistics" .
+<http://vivo.northwestern.edu/individual/nee598d70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n274f2d27_ee598d70_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n274f2d27_ee598d70_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n274f2d27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n274f2d27> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern/position/n274f2d27_ee598d70_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n274f2d27> .
+
+<http://vivo.northwestern.edu/individual/n52bbb58c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/ncc1476d6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/ncc1476d6_52bbb58c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ncc1476d6> .
+<http://vivo.northwestern/position/ncc1476d6_52bbb58c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n52bbb58c> .
+<http://vivo.northwestern/position/ncc1476d6_52bbb58c_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/ncc1476d6> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/n52bbb58c> <http://www.w3.org/2000/01/rdf-schema#label> "Construction Science" .
+<http://vivo.northwestern/position/ncc1476d6_52bbb58c_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern/position/nd138d94a_2833755e_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nd138d94a> .
+<http://vivo.northwestern.edu/individual/nd138d94a> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern.edu/individual/n2833755e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n2833755e> <http://www.w3.org/2000/01/rdf-schema#label> "Atmospheric Sciences" .
+<http://vivo.northwestern/position/nd138d94a_2833755e_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2833755e> .
+<http://vivo.northwestern.edu/individual/nd138d94a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nd138d94a_2833755e_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nd138d94a_2833755e_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern/position/nb9098a8e_c2b21c54_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nb9098a8e> .
+<http://vivo.northwestern/position/nb9098a8e_c2b21c54_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nc2b21c54> .
+<http://vivo.northwestern.edu/individual/nb9098a8e> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern.edu/individual/nc2b21c54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nb9098a8e_c2b21c54_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nb9098a8e_c2b21c54_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nc2b21c54> <http://www.w3.org/2000/01/rdf-schema#label> "Nuclear Engineering" .
+<http://vivo.northwestern.edu/individual/nb9098a8e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern/position/na90924e6_94905f86_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/na90924e6> .
+<http://vivo.northwestern/position/na90924e6_94905f86_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n94905f86> .
+<http://vivo.northwestern.edu/individual/n94905f86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/na90924e6_94905f86_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/na90924e6> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/na90924e6_94905f86_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/na90924e6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n94905f86> <http://www.w3.org/2000/01/rdf-schema#label> "Oceanography" .
+
+<http://vivo.northwestern/position/n6ebab0fa_a96ec482_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/na96ec482> .
+<http://vivo.northwestern/position/n6ebab0fa_a96ec482_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n6ebab0fa_a96ec482_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/na96ec482> <http://www.w3.org/2000/01/rdf-schema#label> "Civil Engineering" .
+<http://vivo.northwestern.edu/individual/n6ebab0fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/na96ec482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n6ebab0fa> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/n6ebab0fa_a96ec482_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n6ebab0fa> .
+
+<http://vivo.northwestern.edu/individual/nf17715d0> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/nf17715d0_8b9df681_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8b9df681> .
+<http://vivo.northwestern.edu/individual/n8b9df681> <http://www.w3.org/2000/01/rdf-schema#label> "Accounting" .
+<http://vivo.northwestern.edu/individual/nf17715d0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nf17715d0_8b9df681_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf17715d0> .
+<http://vivo.northwestern.edu/individual/n8b9df681> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nf17715d0_8b9df681_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nf17715d0_8b9df681_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/n21aae1c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n90e6f6c0_21aae1c6_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n21aae1c6> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Integrative Biosciences" .
+<http://vivo.northwestern/position/n90e6f6c0_21aae1c6_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n90e6f6c0> .
+<http://vivo.northwestern.edu/individual/n90e6f6c0> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/n90e6f6c0_21aae1c6_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n90e6f6c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n90e6f6c0_21aae1c6_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n21aae1c6> .
+
+<http://vivo.northwestern/position/n054759c0_9b0ead26_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n9b0ead26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n054759c0_9b0ead26_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n054759c0> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern.edu/individual/n054759c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n9b0ead26> <http://www.w3.org/2000/01/rdf-schema#label> "Department of Communication" .
+<http://vivo.northwestern/position/n054759c0_9b0ead26_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9b0ead26> .
+<http://vivo.northwestern/position/n054759c0_9b0ead26_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n054759c0> .
+
+<http://vivo.northwestern/position/n18fdb6b4_364e823b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n18fdb6b4> .
+<http://vivo.northwestern/position/n18fdb6b4_364e823b_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n364e823b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n18fdb6b4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n18fdb6b4_364e823b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n364e823b> .
+<http://vivo.northwestern.edu/individual/n18fdb6b4> <http://vivoweb.org/ontology/core#hrJobTitle> "Clinical Professor" .
+<http://vivo.northwestern/position/n18fdb6b4_364e823b_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n364e823b> <http://www.w3.org/2000/01/rdf-schema#label> "Educational Psychology" .
+
+<http://vivo.northwestern/position/n38160486_224add21_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n224add21> .
+<http://vivo.northwestern.edu/individual/n224add21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n224add21> <http://www.w3.org/2000/01/rdf-schema#label> "Horticultural Science" .
+<http://vivo.northwestern/position/n38160486_224add21_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n38160486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n38160486> <http://vivoweb.org/ontology/core#hrJobTitle> "Senior Lecturer" .
+<http://vivo.northwestern/position/n38160486_224add21_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n38160486> .
+<http://vivo.northwestern/position/n38160486_224add21_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern/position/n9d92ca8b_329894a2_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9d92ca8b> .
+<http://vivo.northwestern/position/n9d92ca8b_329894a2_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n9d92ca8b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n9d92ca8b_329894a2_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n329894a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n9d92ca8b> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Lecturer" .
+<http://vivo.northwestern/position/n9d92ca8b_329894a2_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n329894a2> .
+<http://vivo.northwestern.edu/individual/n329894a2> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Pathobiology" .
+
+<http://vivo.northwestern.edu/individual/n2d222064> <http://www.w3.org/2000/01/rdf-schema#label> "Entomology" .
+<http://vivo.northwestern.edu/individual/n1aedaf52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n1aedaf52_2d222064_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n1aedaf52> .
+<http://vivo.northwestern/position/n1aedaf52_2d222064_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n1aedaf52_2d222064_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2d222064> .
+<http://vivo.northwestern/position/n1aedaf52_2d222064_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n1aedaf52> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern.edu/individual/n2d222064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+
+<http://vivo.northwestern.edu/individual/n59444c74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n26f30b82_59444c74_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n59444c74> .
+<http://vivo.northwestern/position/n26f30b82_59444c74_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n59444c74> <http://www.w3.org/2000/01/rdf-schema#label> "Physics and Astronomy" .
+<http://vivo.northwestern/position/n26f30b82_59444c74_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n26f30b82> .
+<http://vivo.northwestern/position/n26f30b82_59444c74_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n26f30b82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n26f30b82> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+
+<http://vivo.northwestern.edu/individual/n4c1f64aa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n96285042_4c1f64aa_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n4c1f64aa> .
+<http://vivo.northwestern/position/n96285042_4c1f64aa_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n96285042> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern.edu/individual/n4c1f64aa> <http://www.w3.org/2000/01/rdf-schema#label> "Geology and Geophysics" .
+<http://vivo.northwestern/position/n96285042_4c1f64aa_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n96285042> .
+<http://vivo.northwestern/position/n96285042_4c1f64aa_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n96285042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern.edu/individual/n9e87cc7b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n24e3e4e2_9e87cc7b_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n24e3e4e2_9e87cc7b_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n24e3e4e2> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/n24e3e4e2_9e87cc7b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n24e3e4e2> .
+<http://vivo.northwestern.edu/individual/n24e3e4e2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n9e87cc7b> <http://www.w3.org/2000/01/rdf-schema#label> "Political Science" .
+<http://vivo.northwestern/position/n24e3e4e2_9e87cc7b_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9e87cc7b> .
+
+<http://vivo.northwestern/position/n3469d15f_2735b399_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n3469d15f> .
+<http://vivo.northwestern/position/n3469d15f_2735b399_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2735b399> .
+<http://vivo.northwestern.edu/individual/n3469d15f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n3469d15f> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern.edu/individual/n2735b399> <http://www.w3.org/2000/01/rdf-schema#label> "Animal Science" .
+<http://vivo.northwestern/position/n3469d15f_2735b399_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n3469d15f_2735b399_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n2735b399> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+
+<http://vivo.northwestern/position/nd40b0c98_ea8f9be9_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nea8f9be9> .
+<http://vivo.northwestern/position/nd40b0c98_ea8f9be9_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nea8f9be9> <http://www.w3.org/2000/01/rdf-schema#label> "Finance" .
+<http://vivo.northwestern.edu/individual/nea8f9be9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/nd40b0c98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nd40b0c98> <http://vivoweb.org/ontology/core#hrJobTitle> "Senior Lecturer" .
+<http://vivo.northwestern/position/nd40b0c98_ea8f9be9_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nd40b0c98_ea8f9be9_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nd40b0c98> .
+
+<http://vivo.northwestern.edu/individual/nf1153653> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n48d141da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n48d141da_f1153653_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n48d141da> .
+<http://vivo.northwestern/position/n48d141da_f1153653_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf1153653> .
+<http://vivo.northwestern.edu/individual/nf1153653> <http://www.w3.org/2000/01/rdf-schema#label> "Philosophy and Humanities" .
+<http://vivo.northwestern.edu/individual/n48d141da> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/n48d141da_f1153653_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n48d141da_f1153653_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern/position/n5677ce1c_7048878f_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n7048878f> <http://www.w3.org/2000/01/rdf-schema#label> "Engineering Technology and Industrial Distribution" .
+<http://vivo.northwestern.edu/individual/n5677ce1c> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern.edu/individual/n7048878f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n5677ce1c_7048878f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n7048878f> .
+<http://vivo.northwestern.edu/individual/n5677ce1c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n5677ce1c_7048878f_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n5677ce1c_7048878f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n5677ce1c> .
+
+<http://vivo.northwestern/position/nd522fec6_499605f7_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n499605f7> .
+<http://vivo.northwestern.edu/individual/n499605f7> <http://www.w3.org/2000/01/rdf-schema#label> "School of Law" .
+<http://vivo.northwestern/position/nd522fec6_499605f7_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nd522fec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nd522fec6_499605f7_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nd522fec6_499605f7_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nd522fec6> .
+<http://vivo.northwestern.edu/individual/n499605f7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/nd522fec6> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor and Associate Dean" .
+
+<http://vivo.northwestern.edu/individual/nf22c2cf7> <http://www.w3.org/2000/01/rdf-schema#label> "Small Animal Clinical Sciences" .
+<http://vivo.northwestern.edu/individual/nf22c2cf7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n9ed36091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n9ed36091_f22c2cf7_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9ed36091> .
+<http://vivo.northwestern/position/n9ed36091_f22c2cf7_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n9ed36091_f22c2cf7_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf22c2cf7> .
+<http://vivo.northwestern/position/n9ed36091_f22c2cf7_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n9ed36091> <http://vivoweb.org/ontology/core#hrJobTitle> "Veterinary Intern Instructor" .
+
+<http://vivo.northwestern/position/n38f0640f_3c372a44_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n3c372a44> .
+<http://vivo.northwestern/position/n38f0640f_3c372a44_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n38f0640f> .
+<http://vivo.northwestern/position/n38f0640f_3c372a44_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n38f0640f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n3c372a44> <http://www.w3.org/2000/01/rdf-schema#label> "Architecture" .
+<http://vivo.northwestern.edu/individual/n3c372a44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n38f0640f> <http://vivoweb.org/ontology/core#hrJobTitle> "Visiting Lecturer" .
+<http://vivo.northwestern/position/n38f0640f_3c372a44_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/n0c7c03e3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n0c7c03e3_331ec525_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n331ec525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n0c7c03e3_331ec525_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n0c7c03e3_331ec525_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n331ec525> .
+<http://vivo.northwestern.edu/individual/n0c7c03e3> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern/position/n0c7c03e3_331ec525_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n0c7c03e3> .
+<http://vivo.northwestern.edu/individual/n331ec525> <http://www.w3.org/2000/01/rdf-schema#label> "Bush School of Government and Public Service" .
+
+<http://vivo.northwestern.edu/individual/nef68c136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/nbca92840> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/nbca92840_ef68c136_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nef68c136> <http://www.w3.org/2000/01/rdf-schema#label> "Health and Kinesiology" .
+<http://vivo.northwestern/position/nbca92840_ef68c136_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nbca92840> .
+<http://vivo.northwestern/position/nbca92840_ef68c136_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nbca92840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nbca92840_ef68c136_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nef68c136> .
+
+<http://vivo.northwestern/position/n11e9b5be_329894a2_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n11e9b5be_329894a2_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n11e9b5be> .
+<http://vivo.northwestern.edu/individual/n11e9b5be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n11e9b5be_329894a2_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n329894a2> .
+<http://vivo.northwestern.edu/individual/n11e9b5be> <http://vivoweb.org/ontology/core#hrJobTitle> "Clinical Associate Professor" .
+<http://vivo.northwestern.edu/individual/n329894a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n11e9b5be_329894a2_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n329894a2> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Pathobiology" .
+
+<http://vivo.northwestern.edu/individual/nf55b14ad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n194fc3c7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n194fc3c7_f55b14ad_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf55b14ad> .
+<http://vivo.northwestern/position/n194fc3c7_f55b14ad_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nf55b14ad> <http://www.w3.org/2000/01/rdf-schema#label> "Economics" .
+<http://vivo.northwestern/position/n194fc3c7_f55b14ad_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n194fc3c7> .
+<http://vivo.northwestern.edu/individual/n194fc3c7> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern/position/n194fc3c7_f55b14ad_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern/position/n8775e8bc_e0412e57_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n8775e8bc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/ne0412e57> <http://www.w3.org/2000/01/rdf-schema#label> "Recreation, Parks, and Tourism Science" .
+<http://vivo.northwestern/position/n8775e8bc_e0412e57_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne0412e57> .
+<http://vivo.northwestern.edu/individual/n8775e8bc> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern/position/n8775e8bc_e0412e57_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/ne0412e57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n8775e8bc_e0412e57_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n8775e8bc> .
+
+<http://vivo.northwestern.edu/individual/nca139916> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nca139916_1b234298_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nca139916> .
+<http://vivo.northwestern.edu/individual/nca139916> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor and Interim Head" .
+<http://vivo.northwestern/position/nca139916_1b234298_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nca139916_1b234298_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n1b234298> <http://www.w3.org/2000/01/rdf-schema#label> "College of Engineering - Administration - Dean" .
+<http://vivo.northwestern/position/nca139916_1b234298_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n1b234298> .
+<http://vivo.northwestern.edu/individual/n1b234298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+
+<http://vivo.northwestern/position/n54317d5b_a96ec482_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n54317d5b> .
+<http://vivo.northwestern/position/n54317d5b_a96ec482_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/na96ec482> .
+<http://vivo.northwestern.edu/individual/na96ec482> <http://www.w3.org/2000/01/rdf-schema#label> "Civil Engineering" .
+<http://vivo.northwestern/position/n54317d5b_a96ec482_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/na96ec482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n54317d5b_a96ec482_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n54317d5b> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern.edu/individual/n54317d5b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern/position/nea775348_f4046369_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nea775348> .
+<http://vivo.northwestern/position/nea775348_f4046369_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf4046369> .
+<http://vivo.northwestern.edu/individual/nf4046369> <http://www.w3.org/2000/01/rdf-schema#label> "Biochemistry and Biophysics" .
+<http://vivo.northwestern.edu/individual/nf4046369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/nea775348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nea775348> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/nea775348_f4046369_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nea775348_f4046369_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern/position/nb888266f_fb6c9e2c_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nb888266f_fb6c9e2c_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nb888266f_fb6c9e2c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nb888266f> .
+<http://vivo.northwestern.edu/individual/nb888266f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nb888266f_fb6c9e2c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nfb6c9e2c> .
+<http://vivo.northwestern.edu/individual/nfb6c9e2c> <http://www.w3.org/2000/01/rdf-schema#label> "University Libraries" .
+<http://vivo.northwestern.edu/individual/nb888266f> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern.edu/individual/nfb6c9e2c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+
+<http://vivo.northwestern.edu/individual/n91770559> <http://www.w3.org/2000/01/rdf-schema#label> "English" .
+<http://vivo.northwestern.edu/individual/ndd8077e2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/ndd8077e2_91770559_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/ndd8077e2_91770559_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n91770559> .
+<http://vivo.northwestern.edu/individual/n91770559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/ndd8077e2> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/ndd8077e2_91770559_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ndd8077e2> .
+<http://vivo.northwestern/position/ndd8077e2_91770559_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/nf1c6fff3> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+<http://vivo.northwestern/position/nf1c6fff3_e0412e57_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne0412e57> .
+<http://vivo.northwestern/position/nf1c6fff3_e0412e57_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/ne0412e57> <http://www.w3.org/2000/01/rdf-schema#label> "Recreation, Parks, and Tourism Science" .
+<http://vivo.northwestern.edu/individual/nf1c6fff3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nf1c6fff3_e0412e57_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nf1c6fff3_e0412e57_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf1c6fff3> .
+<http://vivo.northwestern.edu/individual/ne0412e57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+
+<http://vivo.northwestern.edu/individual/n2d633240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n4663e6b4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n4663e6b4_2d633240_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n4663e6b4> .
+<http://vivo.northwestern/position/n4663e6b4_2d633240_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n2d633240> <http://www.w3.org/2000/01/rdf-schema#label> "Electrical and Computer Engineering" .
+<http://vivo.northwestern.edu/individual/n4663e6b4> <http://vivoweb.org/ontology/core#hrJobTitle> "Assistant Professor" .
+<http://vivo.northwestern/position/n4663e6b4_2d633240_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n4663e6b4_2d633240_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2d633240> .
+
+<http://vivo.northwestern/position/na96b562e_f5352f2f_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nf5352f2f> <http://www.w3.org/2000/01/rdf-schema#label> "Psychology" .
+<http://vivo.northwestern.edu/individual/na96b562e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/na96b562e_f5352f2f_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/na96b562e> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern.edu/individual/nf5352f2f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/na96b562e_f5352f2f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nf5352f2f> .
+<http://vivo.northwestern/position/na96b562e_f5352f2f_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/na96b562e> .
+
+<http://vivo.northwestern.edu/individual/nfda04cc0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nfda04cc0> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/nfda04cc0_7518c091_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/nfda04cc0_7518c091_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nfda04cc0> .
+<http://vivo.northwestern/position/nfda04cc0_7518c091_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nfda04cc0_7518c091_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n7518c091> .
+<http://vivo.northwestern.edu/individual/n7518c091> <http://www.w3.org/2000/01/rdf-schema#label> "Biomedical Engineering" .
+<http://vivo.northwestern.edu/individual/n7518c091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+
+<http://vivo.northwestern.edu/individual/nbf942ec6> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern.edu/individual/n59444c74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/nbf942ec6_59444c74_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/nbf942ec6_59444c74_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n59444c74> .
+<http://vivo.northwestern/position/nbf942ec6_59444c74_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/nbf942ec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/nbf942ec6_59444c74_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nbf942ec6> .
+<http://vivo.northwestern.edu/individual/n59444c74> <http://www.w3.org/2000/01/rdf-schema#label> "Physics and Astronomy" .
+
+<http://vivo.northwestern.edu/individual/n9e5eea38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n9e5eea38> <http://www.w3.org/2000/01/rdf-schema#label> "Sociology" .
+<http://vivo.northwestern/position/nfee0dccb_9e5eea38_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/nfee0dccb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/nfee0dccb> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/nfee0dccb_9e5eea38_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n9e5eea38> .
+<http://vivo.northwestern/position/nfee0dccb_9e5eea38_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/nfee0dccb> .
+<http://vivo.northwestern/position/nfee0dccb_9e5eea38_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern.edu/individual/n6340ff0a> <http://vivoweb.org/ontology/core#hrJobTitle> "Lecturer" .
+<http://vivo.northwestern/position/n6340ff0a_390956d8_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n390956d8> .
+<http://vivo.northwestern/position/n6340ff0a_390956d8_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n6340ff0a> .
+<http://vivo.northwestern/position/n6340ff0a_390956d8_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n390956d8> <http://www.w3.org/2000/01/rdf-schema#label> "Management" .
+<http://vivo.northwestern.edu/individual/n6340ff0a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n390956d8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n6340ff0a_390956d8_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/n5cebea29> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/n5cebea29_26ddd99c_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n5cebea29_26ddd99c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n5cebea29> .
+<http://vivo.northwestern.edu/individual/n5cebea29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n26ddd99c> <http://www.w3.org/2000/01/rdf-schema#label> "Anthropology" .
+<http://vivo.northwestern/position/n5cebea29_26ddd99c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n26ddd99c> .
+<http://vivo.northwestern.edu/individual/n26ddd99c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n5cebea29_26ddd99c_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern/position/n332dadae_38381a9e_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n38381a9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n332dadae_38381a9e_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n38381a9e> .
+<http://vivo.northwestern.edu/individual/n38381a9e> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Physiology and Pharmacology" .
+<http://vivo.northwestern.edu/individual/n332dadae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n332dadae_38381a9e_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n332dadae> <http://vivoweb.org/ontology/core#hrJobTitle> "Clinical Professor" .
+<http://vivo.northwestern/position/n332dadae_38381a9e_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n332dadae> .
+
+<http://vivo.northwestern.edu/individual/n52bbb58c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n6dd3957c> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/n6dd3957c_52bbb58c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n6dd3957c> .
+<http://vivo.northwestern/position/n6dd3957c_52bbb58c_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n52bbb58c> .
+<http://vivo.northwestern.edu/individual/n52bbb58c> <http://www.w3.org/2000/01/rdf-schema#label> "Construction Science" .
+<http://vivo.northwestern/position/n6dd3957c_52bbb58c_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n6dd3957c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n6dd3957c_52bbb58c_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+
+<http://vivo.northwestern/position/ne6ff3828_4d01014a_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/ne6ff3828> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/ne6ff3828_4d01014a_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n4d01014a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n4d01014a> <http://www.w3.org/2000/01/rdf-schema#label> "History" .
+<http://vivo.northwestern/position/ne6ff3828_4d01014a_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n4d01014a> .
+<http://vivo.northwestern/position/ne6ff3828_4d01014a_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/ne6ff3828> .
+<http://vivo.northwestern.edu/individual/ne6ff3828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+
+<http://vivo.northwestern.edu/individual/n2d222064> <http://www.w3.org/2000/01/rdf-schema#label> "Entomology" .
+<http://vivo.northwestern.edu/individual/n939f7165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n939f7165_2d222064_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n939f7165> .
+<http://vivo.northwestern/position/n939f7165_2d222064_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n939f7165> <http://vivoweb.org/ontology/core#hrJobTitle> "Associate Professor" .
+<http://vivo.northwestern/position/n939f7165_2d222064_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n2d222064> .
+<http://vivo.northwestern.edu/individual/n2d222064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern/position/n939f7165_2d222064_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+
+<http://vivo.northwestern.edu/individual/n4326eaa3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern/position/n4326eaa3_21aae1c6_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern/position/n4326eaa3_21aae1c6_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern/position/n4326eaa3_21aae1c6_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n4326eaa3> .
+<http://vivo.northwestern/position/n4326eaa3_21aae1c6_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n21aae1c6> .
+<http://vivo.northwestern.edu/individual/n21aae1c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://vivo.northwestern.edu/individual/n21aae1c6> <http://www.w3.org/2000/01/rdf-schema#label> "Veterinary Integrative Biosciences" .
+<http://vivo.northwestern.edu/individual/n4326eaa3> <http://vivoweb.org/ontology/core#hrJobTitle> "Professor" .
+
+<http://vivo.northwestern/position/n1333856_390956d8_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n1333856> .
+<http://vivo.northwestern.edu/individual/n1333856> <http://vivoweb.org/ontology/core#hrJobTitle> "Executive Professor" .
+<http://vivo.northwestern/position/n1333856_390956d8_Faculty> <http://vivoweb.org/ontology/core#relates> <http://vivo.northwestern.edu/individual/n390956d8> .
+<http://vivo.northwestern/position/n1333856_390956d8_Faculty> <http://www.w3.org/2000/01/rdf-schema#label> "Faculty" .
+<http://vivo.northwestern.edu/individual/n390956d8> <http://www.w3.org/2000/01/rdf-schema#label> "Management" .
+<http://vivo.northwestern/position/n1333856_390956d8_Faculty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#Position> .
+<http://vivo.northwestern.edu/individual/n1333856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vivoweb.org/ontology/core#FacultyMember> .
+<http://vivo.northwestern.edu/individual/n390956d8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .

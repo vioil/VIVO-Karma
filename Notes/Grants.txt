@@ -1,0 +1,31 @@
+Grants:
+
+The relationship diagram for grants is here: https://wiki.duraspace.org/display/VIVO/VIVO-ISF+1.6+relationship+diagrams%3A+Grant
+
+There is a class called vivo:FundingOrganization. Are any of the AwardingOrgs already in VIVO? If not, it will be easiest to map every AwardingOrg to the vivo:FundingOrganization class. It’s probably preferable to assign the orgs more descriptive classes, e.g. vivo:GovernmentAgency or vivo:Foundation, in addition to or instead of the FundingOrganization class, but that will be difficult using Karma since each column can only map to one class.
+
+You will need a new column for the vivo:AdminRole uri. You’ll also need a uri for vivo:PricipalInvestigatorRole, but you could use the PIID you already have.
+
+The diagram appears to omit the award amount. This should be a literal attached to vivo:Grant with the predicate vivo:totalAwardAmount (http://vivoweb.org/ontology/core#totalAwardAmount).
+
+
+Hope that’s not too confusing.
+
+
+Benjamin Gross
+UNAVCO, Data Technician
+6350 Nautilus Drive
+Boulder, CO 80301-5394
+www.unavco.org
+Office: 303-381-7616
+
+
+You assign each date to a vivo:DateTimeValue via vivo:dateTime, then connect them to the vivo:dateTimeInterval with the object property vivo:start and vivo:end. It’s shown on the chart in the grey boxes, but a little confusing since it doesn’t show where the actual date connects. You need to attach the literal 'http://vivoweb.org/ontology/core#yearMonthDayPrecision'
+ to each datetimevalue via vivo:dateTimePrecision.
+
+
+I’d also suggest formatting the date in your original spreadsheet so VIVO plays nice. This is the format: “YYYY-MM-DDT00:00:00”
+
+
+
+
