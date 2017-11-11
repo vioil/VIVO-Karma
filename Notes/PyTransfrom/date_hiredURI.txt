@@ -1,1 +1,1 @@
-return "http://vivo.northwestern.edu/individual/" + getValue("date_hired")
+return "http://vivo.northwestern.edu/individual/n" + getValue("date_hired")

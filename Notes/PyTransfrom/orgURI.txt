@@ -1,1 +1,1 @@
-return "http://vivo.northwestern.edu/n"+getValue("org_ID")
+return "http://vivo.northwestern.edu/individual/n"+getValue("org_ID")
