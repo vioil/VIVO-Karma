@@ -1,6 +1,11 @@
 DateTime instructions:
 
-You will need to first create one more column in karma for the URI of the start date (and end date). You do that by using the PyTransform command from the drop down menu on each column. Give a name to the new column, like date_uri or something and then in the window type in: return "http://vivo.northwestern.edu/individual/" + getValue(“date_hired”). Note that you need to change the url to your own namespace. Once you generate that new column you need to assign semantic type and that will be: uri of vivo:DateTimeValue1
+You will need to first create one more column in karma for the URI of the start date (and end date). 
+You do that by using the PyTransform command from the drop down menu on each column. 
+Give a name to the new column, like date_uri or something and then in the window type in: 
+return "http://vivo.columbia.edu/individual/" + getValue(“date_hired”). 
+Note that you need to change the url to your own namespace. 
+Once you generate that new column you need to assign semantic type and that will be: uri of vivo:DateTimeValue1
 Then you assign the following semantic types for the date_hired:
 vivo:dateTime of vivo:DateTimeValue1
 After that you need you need to click  on DateTimeValue1 (that is going to appear), and selected "Add Outgoing Literal". Then enter
