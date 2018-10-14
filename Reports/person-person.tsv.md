@@ -20,13 +20,13 @@ return "vcard"+getValue("UID")
 #### _date_hiredURI_
 From column: _date_hired_
 ``` python
-return "http://vivo.northwestern.edu/individual/" + getValue("date_hired")
+return "http://vivo.columbia.edu/individual/" + getValue("date_hired")
 ```
 
 #### _date_terminatedURI_
 From column: _date_terminated_
 ``` python
-return "http://vivo.northwestern.edu/individual/" + getValue("date_terminated")
+return "http://vivo.columbia.edu/individual/" + getValue("date_terminated")
 ```
 
 #### _name_URI_
