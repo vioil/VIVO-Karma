@@ -1,1 +1,1 @@
-return "http://vivo.northwestern.edu/individual/position-"+getValue("UID")+"_"+getValue("org_ID")+"_"+getValue("position_type").replace(" ","_")
+return "http://vivo.columbia.edu/individual/position-"+getValue("UID")+"_"+getValue("org_ID")+"_"+getValue("position_type").replace(" ","_")
