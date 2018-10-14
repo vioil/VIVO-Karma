@@ -8,7 +8,7 @@
 #### _org_ID_URI_
 From column: _org_ID_
 ``` python
-return "http://vivo.northwestern.edu/n"+getValue("org_ID")
+return "http://vivo.columbia.edu/n"+getValue("org_ID")
 ```
 
 
