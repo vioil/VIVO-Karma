@@ -8,7 +8,7 @@
 #### _position_uri_
 From column: _position_type_
 ``` python
-return "http://vivo.northwestern/position/n"+getValue("UID")+"_"+getValue("org_ID")+"_"+getValue("position_type").replace(" ","_")
+return "http://vivo.columbia/position/n"+getValue("UID")+"_"+getValue("org_ID")+"_"+getValue("position_type").replace(" ","_")
 ```
 
 
