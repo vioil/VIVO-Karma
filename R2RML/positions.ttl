@@ -9,8 +9,6 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix socsci: <http://vivo.library.cornell.edu/ns/vivo/socsci/0.1#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix datagetter: <java:edu/cornell/mannlib/vitro/webapp/utils/datagetter/> .
-@prefix tamu: <http://vivo.library.tamu.edu/ontology/TAMU#> .
 @prefix far: <http://vitro.mannlib.cornell.edu/ns/reporting#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix study_protocol: <http://purl.org/net/OCRe/study_protocol.owl#> .
@@ -19,23 +17,22 @@
 @prefix wos: <http://vivo.mannlib.cornell.edu/ns/ThomsonWOS/0.1#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix app: <http://eagle-i.org/ont/app/1.0/> .
+@prefix vlocal: <http://vivo.columbia.edu/ontology/vlocal#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix config: <http://vitro.mannlib.cornell.edu/ns/vitro/ApplicationConfiguration#> .
-@prefix swvs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix statistics: <http://purl.org/net/OCRe/statistics.owl#> .
-@prefix local: <http://vitro.mannlib.cornell.edu/ns/vitro/siteConfig/> .
-@prefix role: <http://vitro.mannlib.cornell.edu/ns/vitro/role#> .
 @prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
 @prefix sce: <http://vivoweb.org/ontology/SchoolOfContinuingEducation#> .
 @prefix stars: <http://vitro.mannlib.cornell.edu/ns/cornell/stars/classes#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix hr: <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#> .
+@prefix local: <http://vivo.cornell.edu/ontology/local#> .
 @prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
 @prefix c4o: <http://purl.org/spar/c4o/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix wot: <http://xmlns.com/wot/0.1/> .
 @prefix skos2: <http://www.w3.org/2008/05/skos#> .
 @prefix vivo: <http://vivoweb.org/ontology/core#> .
 @prefix vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
@@ -49,26 +46,220 @@
 @prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
 @prefix cce: <http://vivoweb.org/ontology/cornell-cooperative-extension#> .
 @prefix mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#> .
-@prefix ai: <http://vivoweb.org/ontology/activity-insight#> .
+@prefix acti: <http://vivoweb.org/ontology/activity-insight#> .
 @prefix ospcu: <http://vivoweb.org/ontology/cu-vivo-osp#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix display: <http://vitro.mannlib.cornell.edu/ontologies/display/1.1#> .
-@prefix vlocal: <http://vivo.northwestern.edu/ontology/vlocal#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node19g7chm0bx1 a km-dev:R2RMLMapping ;
-	km-dev:sourceName "positions - positions.tsv" ;
-	km-dev:modelPublicationTime "1426177185803"^^xsd:long ;
+_:node1cq1k2dj2x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "positions.txt" ;
+	km-dev:modelPublicationTime "1539800381024"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"org_name\"}],[{\"columnName\":\"position_type\"}],[{\"columnName\":\"job_title\"}],[{\"columnName\":\"UID\"}],[{\"columnName\":\"org_ID\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"org_name\"}],[{\"columnName\":\"position_uri\"}],[{\"columnName\":\"position_type\"}],[{\"columnName\":\"job_title\"}],[{\"columnName\":\"UID\"}],[{\"columnName\":\"org_ID\"}]]" ;
-	km-dev:hasModelLabel "positions - positions.tsv" ;
-	km-dev:hasBaseURI "http://vivo.northwestern.edu/individual/n" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"UID\"}],[{\"columnName\":\"job_title\"}],[{\"columnName\":\"position_type\"}],[{\"columnName\":\"org_name\"}],[{\"columnName\":\"org_ID\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"UID\"}],[{\"columnName\":\"person_uri\"}],[{\"columnName\":\"job_title\"}],[{\"columnName\":\"position_uri\"}],[{\"columnName\":\"position_type\"}],[{\"columnName\":\"org_name\"}],[{\"columnName\":\"org_ID_uri\"}],[{\"columnName\":\"org_ID\"}]]" ;
+	km-dev:hasModelLabel "positions.txt" ;
+	km-dev:hasBaseURI "http://vivo.columbia.edu/individual/" ;
 	km-dev:hasWorksheetHistory """[
     {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://vivo.columbia.edu/individual/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"position_type\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"position_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://vivo.columbia.edu/individual/position-\\\"+getValue(\\\"UID\\\")+\\\"_\\\"+getValue(\\\"org_ID\\\")+\\\"_\\\"+getValue(\\\"position_type\\\").replace(\\\" \\\",\\\"_\\\")\\n\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"UID\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"position_type\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"org_ID\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"UID\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"person_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://vivo.columbia.edu/individual/nperson-\\\"+getValue(\\\"UID\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"UID\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"person_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"org_ID\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"org_ID_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"http://vivo.columbia.edu/individual/n\\\"+getValue(\\\"org_ID\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_ID\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_ID_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
         \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
         \"inputParameters\": [
             {
                 \"name\": \"hNodeId\",
@@ -98,7 +289,7 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"metaPropertyId\",
                 \"type\": \"other\",
-                \"value\": \"http://vivoweb.org/ontology/core#FacultyMember1 (add)\"
+                \"value\": \"http://vivoweb.org/ontology/core#FacultyMember1\"
             },
             {
                 \"name\": \"SemanticTypesArray\",
@@ -107,6 +298,7 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
                     \"DomainUri\": \"http://vivoweb.org/ontology/core#FacultyMember\",
                     \"DomainId\": \"http://vivoweb.org/ontology/core#FacultyMember1\",
                     \"isPrimary\": true,
+                    \"isProvenance\": false,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"vivo:FacultyMember1 (add)\"
                 }]
@@ -114,10 +306,15 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"trainAndShowUpdates\",
                 \"type\": \"other\",
-                \"value\": false
+                \"value\": true
             },
             {
                 \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
                 \"type\": \"other\",
                 \"value\": \"\"
             },
@@ -132,10 +329,11 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"UID\\\"}]}]\"
             }
         ],
-        \"tags\": [\"Modeling\"]
+        \"tags\": [\"SemanticType\"]
     },
     {
         \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
         \"inputParameters\": [
             {
                 \"name\": \"hNodeId\",
@@ -159,6 +357,7 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
                     \"DomainUri\": \"http://vivoweb.org/ontology/core#FacultyMember\",
                     \"DomainId\": \"http://vivoweb.org/ontology/core#FacultyMember1\",
                     \"isPrimary\": true,
+                    \"isProvenance\": false,
                     \"FullType\": \"http://vivoweb.org/ontology/core#hrJobTitle\",
                     \"DomainLabel\": \"vivo:FacultyMember1\"
                 }]
@@ -166,10 +365,15 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"trainAndShowUpdates\",
                 \"type\": \"other\",
-                \"value\": false
+                \"value\": true
             },
             {
                 \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
                 \"type\": \"other\",
                 \"value\": \"\"
             },
@@ -184,10 +388,129 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"job_title\\\"}]}]\"
             }
         ],
-        \"tags\": [\"Modeling\"]
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"position_type\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://vivoweb.org/ontology/core#FacultyPosition\",
+                    \"DomainId\": \"http://vivoweb.org/ontology/core#FacultyPosition1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"vivo:FacultyPosition1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position_type\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position_type\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"org_name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://vivoweb.org/ontology/core#AcademicDepartment\",
+                    \"DomainId\": \"http://vivoweb.org/ontology/core#AcademicDepartment1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"vivo:AcademicDepartment1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
     },
     {
         \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
         \"inputParameters\": [
             {
                 \"name\": \"hNodeId\",
@@ -212,31 +535,37 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"metaPropertyUri\",
                 \"type\": \"other\",
-                \"value\": \"http://xmlns.com/foaf/0.1/Organization\"
+                \"value\": \"http://vivoweb.org/ontology/core#AcademicDepartment\"
             },
             {
                 \"name\": \"metaPropertyId\",
                 \"type\": \"other\",
-                \"value\": \"http://xmlns.com/foaf/0.1/Organization1 (add)\"
+                \"value\": \"http://vivoweb.org/ontology/core#AcademicDepartment1\"
             },
             {
                 \"name\": \"SemanticTypesArray\",
                 \"type\": \"other\",
                 \"value\": [{
-                    \"DomainUri\": \"http://xmlns.com/foaf/0.1/Organization\",
-                    \"DomainId\": \"http://xmlns.com/foaf/0.1/Organization1\",
+                    \"DomainUri\": \"http://vivoweb.org/ontology/core#AcademicDepartment\",
+                    \"DomainId\": \"http://vivoweb.org/ontology/core#AcademicDepartment1\",
                     \"isPrimary\": true,
+                    \"isProvenance\": false,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
-                    \"DomainLabel\": \"foaf:Organization1 (add)\"
+                    \"DomainLabel\": \"vivo:AcademicDepartment1\"
                 }]
             },
             {
                 \"name\": \"trainAndShowUpdates\",
                 \"type\": \"other\",
-                \"value\": false
+                \"value\": true
             },
             {
                 \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
                 \"type\": \"other\",
                 \"value\": \"\"
             },
@@ -251,262 +580,11 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_ID\\\"}]}]\"
             }
         ],
-        \"tags\": [\"Modeling\"]
-    },
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"org_name\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://xmlns.com/foaf/0.1/Organization\",
-                    \"DomainId\": \"http://xmlns.com/foaf/0.1/Organization1\",
-                    \"isPrimary\": true,
-                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
-                    \"DomainLabel\": \"foaf:Organization1\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": false
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_name\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_name\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"Modeling\"]
-    },
-    {
-        \"commandName\": \"ChangeInternalNodeLinksCommand\",
-        \"inputParameters\": [
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"initialEdges\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"edgeTargetId\": \"http://vivoweb.org/ontology/core#FacultyMember1\",
-                    \"edgeId\": \"http://xmlns.com/foaf/0.1/topic_interest\",
-                    \"edgeSourceId\": \"http://xmlns.com/foaf/0.1/Organization1\"
-                }]
-            },
-            {
-                \"name\": \"alignmentId\",
-                \"type\": \"other\",
-                \"value\": \"WSP1:WS1928AL\"
-            },
-            {
-                \"name\": \"newEdges\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"edgeTargetId\": \"http://vivoweb.org/ontology/core#FacultyMember1\",
-                    \"edgeId\": \"http://vivoweb.org/ontology/core#relates\",
-                    \"edgeTargetUri\": \"http://vivoweb.org/ontology/core#FacultyMember\",
-                    \"edgeSourceId\": \"http://vivoweb.org/ontology/core#Position1 (add)\",
-                    \"edgeSourceUri\": \"http://vivoweb.org/ontology/core#Position\"
-                }]
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[]\"
-            }
-        ],
-        \"tags\": [\"Modeling\"]
-    },
-    {
-        \"commandName\": \"ChangeInternalNodeLinksCommand\",
-        \"inputParameters\": [
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"initialEdges\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"edgeTargetId\": \"http://vivoweb.org/ontology/core#FacultyMember1\",
-                    \"edgeId\": \"http://xmlns.com/foaf/0.1/topic_interest\",
-                    \"edgeSourceId\": \"http://xmlns.com/foaf/0.1/Organization1\"
-                }]
-            },
-            {
-                \"name\": \"alignmentId\",
-                \"type\": \"other\",
-                \"value\": \"WSP1:WS1928AL\"
-            },
-            {
-                \"name\": \"newEdges\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"edgeTargetId\": \"http://xmlns.com/foaf/0.1/Organization1\",
-                    \"edgeId\": \"http://vivoweb.org/ontology/core#relates\",
-                    \"edgeTargetUri\": \"http://xmlns.com/foaf/0.1/Organization\",
-                    \"edgeSourceId\": \"http://vivoweb.org/ontology/core#Position1\",
-                    \"edgeSourceUri\": \"http://vivoweb.org/ontology/core#Position\"
-                }]
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[]\"
-            }
-        ],
-        \"tags\": [\"Modeling\"]
-    },
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"position_type\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://vivoweb.org/ontology/core#Position\",
-                    \"DomainId\": \"http://vivoweb.org/ontology/core#Position1\",
-                    \"isPrimary\": true,
-                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
-                    \"DomainLabel\": \"vivo:Position1\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": false
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position_type\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position_type\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"Modeling\"]
-    },
-    {
-        \"commandName\": \"SubmitPythonTransformationCommand\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"position_type\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"newColumnName\",
-                \"type\": \"other\",
-                \"value\": \"position_uri\"
-            },
-            {
-                \"name\": \"transformationCode\",
-                \"type\": \"other\",
-                \"value\": \"return \\\"http://vivo.northwestern/position/n\\\"+getValue(\\\"UID\\\")+\\\"_\\\"+getValue(\\\"org_ID\\\")+\\\"_\\\"+getValue(\\\"position_type\\\").replace(\\\" \\\",\\\"_\\\")\"
-            },
-            {
-                \"name\": \"errorDefaultValue\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position_type\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"UID\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"org_ID\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position_uri\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"Transformation\"]
+        \"tags\": [\"SemanticType\"]
     },
     {
         \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
         \"inputParameters\": [
             {
                 \"name\": \"hNodeId\",
@@ -531,31 +609,37 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"metaPropertyUri\",
                 \"type\": \"other\",
-                \"value\": \"http://vivoweb.org/ontology/core#Position\"
+                \"value\": \"http://vivoweb.org/ontology/core#FacultyPosition\"
             },
             {
                 \"name\": \"metaPropertyId\",
                 \"type\": \"other\",
-                \"value\": \"http://vivoweb.org/ontology/core#Position1\"
+                \"value\": \"http://vivoweb.org/ontology/core#FacultyPosition1\"
             },
             {
                 \"name\": \"SemanticTypesArray\",
                 \"type\": \"other\",
                 \"value\": [{
-                    \"DomainUri\": \"http://vivoweb.org/ontology/core#Position\",
-                    \"DomainId\": \"http://vivoweb.org/ontology/core#Position1\",
+                    \"DomainUri\": \"http://vivoweb.org/ontology/core#FacultyPosition\",
+                    \"DomainId\": \"http://vivoweb.org/ontology/core#FacultyPosition1\",
                     \"isPrimary\": true,
+                    \"isProvenance\": false,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
-                    \"DomainLabel\": \"vivo:Position1\"
+                    \"DomainLabel\": \"vivo:FacultyPosition1\"
                 }]
             },
             {
                 \"name\": \"trainAndShowUpdates\",
                 \"type\": \"other\",
-                \"value\": false
+                \"value\": true
             },
             {
                 \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
                 \"type\": \"other\",
                 \"value\": \"\"
             },
@@ -570,11 +654,17 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position_uri\\\"}]}]\"
             }
         ],
-        \"tags\": [\"Modeling\"]
+        \"tags\": [\"SemanticType\"]
     },
     {
-        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
         \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"UID\"}]
+            },
             {
                 \"name\": \"worksheetId\",
                 \"type\": \"worksheetId\",
@@ -586,14 +676,365 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
                 \"value\": \"DEFAULT_TEST\"
             },
             {
-                \"name\": \"properties\",
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://vivoweb.org/ontology/core#FacultyMember\",
+                    \"DomainId\": \"http://vivoweb.org/ontology/core#FacultyMember1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://vivo.columbia.edu/ontology/vlocal#UID\",
+                    \"DomainLabel\": \"vivo:FacultyMember1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"UID\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"UID\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"person_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://vivoweb.org/ontology/core#FacultyMember\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://vivoweb.org/ontology/core#FacultyMember1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://vivoweb.org/ontology/core#FacultyMember\",
+                    \"DomainId\": \"http://vivoweb.org/ontology/core#FacultyMember1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"vivo:FacultyMember1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"person_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"person_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"org_ID\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://vivoweb.org/ontology/core#AcademicDepartment\",
+                    \"DomainId\": \"http://vivoweb.org/ontology/core#AcademicDepartment1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://vivo.columbia.edu/ontology/vlocal#DepartmentID\",
+                    \"DomainLabel\": \"vivo:AcademicDepartment1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_ID\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_ID\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"org_ID_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://vivoweb.org/ontology/core#AcademicDepartment\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://vivoweb.org/ontology/core#AcademicDepartment1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://vivoweb.org/ontology/core#AcademicDepartment\",
+                    \"DomainId\": \"http://vivoweb.org/ontology/core#AcademicDepartment1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"vivo:AcademicDepartment1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_ID_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"org_ID_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"DeleteLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
                 \"type\": \"other\",
                 \"value\": {
-                    \"graphLabel\": \"\",
-                    \"hasBaseURI\": true,
-                    \"baseURI\": \"http://vivo.northwestern.edu/individual/n\",
-                    \"hasPrefix\": false,
-                    \"hasServiceProperties\": false
+                    \"edgeTargetId\": \"http://www.w3.org/2006/vcard/ns#Individual1\",
+                    \"edgeId\": \"http://purl.obolibrary.org/obo/ARG_2000028\",
+                    \"edgeSourceId\": \"http://vivoweb.org/ontology/core#FacultyMember1\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"DeleteLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://vivoweb.org/ontology/core#FacultyPosition1\",
+                    \"edgeId\": \"http://vivoweb.org/ontology/core#relatedBy\",
+                    \"edgeSourceId\": \"http://xmlns.com/foaf/0.1/Person1\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://vivoweb.org/ontology/core#FacultyMember1\",
+                    \"edgeId\": \"http://vivoweb.org/ontology/core#relates\",
+                    \"edgeTargetUri\": \"http://vivoweb.org/ontology/core#FacultyMember\",
+                    \"edgeSourceId\": \"http://vivoweb.org/ontology/core#FacultyPosition1\",
+                    \"edgeSourceUri\": \"http://vivoweb.org/ontology/core#FacultyPosition\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://vivoweb.org/ontology/core#AcademicDepartment1\",
+                    \"edgeId\": \"http://vivoweb.org/ontology/core#relates\",
+                    \"edgeTargetUri\": \"http://vivoweb.org/ontology/core#AcademicDepartment\",
+                    \"edgeSourceId\": \"http://vivoweb.org/ontology/core#FacultyPosition1\",
+                    \"edgeSourceUri\": \"http://vivoweb.org/ontology/core#FacultyPosition\"
                 }
             },
             {
@@ -611,157 +1052,191 @@ _:node19g7chm0bx1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_9dc67a09-6b7d-4a0d-b355-5fedda3bcd68 a rr:TriplesMap .
+km-dev:TriplesMap_341d2c87-2007-471f-8661-e2c121e12fc6 a rr:TriplesMap .
 
-_:node19g7chm0bx1 km-dev:hasTriplesMap km-dev:TriplesMap_9dc67a09-6b7d-4a0d-b355-5fedda3bcd68 .
+_:node1cq1k2dj2x1 km-dev:hasTriplesMap km-dev:TriplesMap_341d2c87-2007-471f-8661-e2c121e12fc6 .
 
-km-dev:TriplesMap_9dc67a09-6b7d-4a0d-b355-5fedda3bcd68 km-dev:isPartOfMapping _:node19g7chm0bx1 .
+km-dev:TriplesMap_341d2c87-2007-471f-8661-e2c121e12fc6 km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx2 rr:tableName "positions - positions.tsv" ;
+_:node1cq1k2dj2x2 rr:tableName "positions.txt" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasLogicalTable _:node19g7chm0bx2 .
+_:node1cq1k2dj2x1 km-dev:hasLogicalTable _:node1cq1k2dj2x2 .
 
-km-dev:TriplesMap_9dc67a09-6b7d-4a0d-b355-5fedda3bcd68 rr:logicalTable _:node19g7chm0bx2 ;
-	rr:subjectMap _:node19g7chm0bx3 .
+km-dev:TriplesMap_341d2c87-2007-471f-8661-e2c121e12fc6 rr:logicalTable _:node1cq1k2dj2x2 ;
+	rr:subjectMap _:node1cq1k2dj2x3 .
 
-_:node19g7chm0bx1 km-dev:hasSubjectMap _:node19g7chm0bx3 .
+_:node1cq1k2dj2x1 km-dev:hasSubjectMap _:node1cq1k2dj2x3 .
 
-_:node19g7chm0bx3 km-dev:isPartOfMapping _:node19g7chm0bx1 ;
+_:node1cq1k2dj2x3 km-dev:isPartOfMapping _:node1cq1k2dj2x1 ;
 	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#FacultyMember1" ;
-	rr:class vivo:FacultyMember ;
-	rr:template "{UID}" .
-
-km-dev:PredicateObjectMap_0c773125-960e-4d4a-a298-fa720921fb0d rr:predicate vivo:hrJobTitle .
-
-_:node19g7chm0bx4 rr:column "job_title" ;
-	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
-
-_:node19g7chm0bx1 km-dev:hasObjectMap _:node19g7chm0bx4 .
-
-km-dev:PredicateObjectMap_0c773125-960e-4d4a-a298-fa720921fb0d rr:objectMap _:node19g7chm0bx4 .
-
-km-dev:TriplesMap_9dc67a09-6b7d-4a0d-b355-5fedda3bcd68 rr:predicateObjectMap km-dev:PredicateObjectMap_0c773125-960e-4d4a-a298-fa720921fb0d .
-
-km-dev:PredicateObjectMap_0c773125-960e-4d4a-a298-fa720921fb0d a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
-
-_:node19g7chm0bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0c773125-960e-4d4a-a298-fa720921fb0d .
-
-km-dev:TriplesMap_b2451f93-ca36-4b5e-aa96-9161b78b2d0f a rr:TriplesMap .
-
-_:node19g7chm0bx1 km-dev:hasTriplesMap km-dev:TriplesMap_b2451f93-ca36-4b5e-aa96-9161b78b2d0f .
-
-km-dev:TriplesMap_b2451f93-ca36-4b5e-aa96-9161b78b2d0f km-dev:isPartOfMapping _:node19g7chm0bx1 .
-
-_:node19g7chm0bx5 rr:tableName "positions - positions.tsv" ;
-	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
-
-_:node19g7chm0bx1 km-dev:hasLogicalTable _:node19g7chm0bx5 .
-
-km-dev:TriplesMap_b2451f93-ca36-4b5e-aa96-9161b78b2d0f rr:logicalTable _:node19g7chm0bx5 ;
-	rr:subjectMap _:node19g7chm0bx6 .
-
-_:node19g7chm0bx1 km-dev:hasSubjectMap _:node19g7chm0bx6 .
-
-_:node19g7chm0bx6 km-dev:isPartOfMapping _:node19g7chm0bx1 ;
-	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#Position1" ;
-	rr:class vivo:Position ;
+	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#FacultyPosition1" ;
+	rr:class vivo:FacultyPosition ;
 	rr:template "{position_uri}" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_1f91b12e-4e06-40c7-9dad-68891d4f9876 rr:predicate vivo:relates .
+km-dev:PredicateObjectMap_f1c5f533-7537-4bad-9c38-678357a21e9e rr:predicate vivo:relates .
 
-km-dev:RefObjectMap_79efc44a-7e5d-4917-b5ed-134dec6cae3b a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_9dc67a09-6b7d-4a0d-b355-5fedda3bcd68 ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+km-dev:RefObjectMap_27f2a606-5b74-4cae-9ba9-21a3f4544e75 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_677de8eb-6ff4-44aa-b692-2b20cf4b2155 ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasObjectMap km-dev:RefObjectMap_79efc44a-7e5d-4917-b5ed-134dec6cae3b .
+_:node1cq1k2dj2x1 km-dev:hasObjectMap km-dev:RefObjectMap_27f2a606-5b74-4cae-9ba9-21a3f4544e75 .
 
-km-dev:PredicateObjectMap_1f91b12e-4e06-40c7-9dad-68891d4f9876 rr:objectMap km-dev:RefObjectMap_79efc44a-7e5d-4917-b5ed-134dec6cae3b .
+km-dev:PredicateObjectMap_f1c5f533-7537-4bad-9c38-678357a21e9e rr:objectMap km-dev:RefObjectMap_27f2a606-5b74-4cae-9ba9-21a3f4544e75 .
 
-km-dev:TriplesMap_b2451f93-ca36-4b5e-aa96-9161b78b2d0f rr:predicateObjectMap km-dev:PredicateObjectMap_1f91b12e-4e06-40c7-9dad-68891d4f9876 .
+km-dev:TriplesMap_341d2c87-2007-471f-8661-e2c121e12fc6 rr:predicateObjectMap km-dev:PredicateObjectMap_f1c5f533-7537-4bad-9c38-678357a21e9e .
 
-km-dev:PredicateObjectMap_1f91b12e-4e06-40c7-9dad-68891d4f9876 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+km-dev:PredicateObjectMap_f1c5f533-7537-4bad-9c38-678357a21e9e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1f91b12e-4e06-40c7-9dad-68891d4f9876 .
+_:node1cq1k2dj2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f1c5f533-7537-4bad-9c38-678357a21e9e .
 
-km-dev:PredicateObjectMap_3f571cd1-1e7a-4bd7-9fca-c2bf29b8e0b1 rr:predicate vivo:relates .
+km-dev:PredicateObjectMap_96585ef7-632c-4565-9080-825abb1aaea7 rr:predicate vivo:relates .
 
-km-dev:RefObjectMap_351fe36a-7c39-4179-b85d-e079b38d2441 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_9207692c-b1ee-47f3-ba7f-87fddacd7f0a ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+km-dev:RefObjectMap_70ce6c6b-1a1b-4662-b1bc-355ed5f532ca a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8a8ef27c-3aab-4e67-aec6-f4a1a631ea13 ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasObjectMap km-dev:RefObjectMap_351fe36a-7c39-4179-b85d-e079b38d2441 .
+_:node1cq1k2dj2x1 km-dev:hasObjectMap km-dev:RefObjectMap_70ce6c6b-1a1b-4662-b1bc-355ed5f532ca .
 
-km-dev:PredicateObjectMap_3f571cd1-1e7a-4bd7-9fca-c2bf29b8e0b1 rr:objectMap km-dev:RefObjectMap_351fe36a-7c39-4179-b85d-e079b38d2441 .
+km-dev:PredicateObjectMap_96585ef7-632c-4565-9080-825abb1aaea7 rr:objectMap km-dev:RefObjectMap_70ce6c6b-1a1b-4662-b1bc-355ed5f532ca .
 
-km-dev:TriplesMap_b2451f93-ca36-4b5e-aa96-9161b78b2d0f rr:predicateObjectMap km-dev:PredicateObjectMap_3f571cd1-1e7a-4bd7-9fca-c2bf29b8e0b1 .
+km-dev:TriplesMap_341d2c87-2007-471f-8661-e2c121e12fc6 rr:predicateObjectMap km-dev:PredicateObjectMap_96585ef7-632c-4565-9080-825abb1aaea7 .
 
-km-dev:PredicateObjectMap_3f571cd1-1e7a-4bd7-9fca-c2bf29b8e0b1 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+km-dev:PredicateObjectMap_96585ef7-632c-4565-9080-825abb1aaea7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3f571cd1-1e7a-4bd7-9fca-c2bf29b8e0b1 .
+_:node1cq1k2dj2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_96585ef7-632c-4565-9080-825abb1aaea7 .
 
-km-dev:PredicateObjectMap_52ed890c-843c-4b66-a994-63ead35e7c25 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_f2efefce-9ad8-4c2e-bf24-31ae099cfb8f rr:predicate rdfs:label .
 
-_:node19g7chm0bx7 rr:column "position_type" ;
+_:node1cq1k2dj2x4 rr:column "position_type" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasObjectMap _:node19g7chm0bx7 .
+_:node1cq1k2dj2x1 km-dev:hasObjectMap _:node1cq1k2dj2x4 .
 
-km-dev:PredicateObjectMap_52ed890c-843c-4b66-a994-63ead35e7c25 rr:objectMap _:node19g7chm0bx7 .
+km-dev:PredicateObjectMap_f2efefce-9ad8-4c2e-bf24-31ae099cfb8f rr:objectMap _:node1cq1k2dj2x4 .
 
-km-dev:TriplesMap_b2451f93-ca36-4b5e-aa96-9161b78b2d0f rr:predicateObjectMap km-dev:PredicateObjectMap_52ed890c-843c-4b66-a994-63ead35e7c25 .
+km-dev:TriplesMap_341d2c87-2007-471f-8661-e2c121e12fc6 rr:predicateObjectMap km-dev:PredicateObjectMap_f2efefce-9ad8-4c2e-bf24-31ae099cfb8f .
 
-km-dev:PredicateObjectMap_52ed890c-843c-4b66-a994-63ead35e7c25 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+km-dev:PredicateObjectMap_f2efefce-9ad8-4c2e-bf24-31ae099cfb8f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_52ed890c-843c-4b66-a994-63ead35e7c25 .
+_:node1cq1k2dj2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f2efefce-9ad8-4c2e-bf24-31ae099cfb8f .
 
-km-dev:TriplesMap_9207692c-b1ee-47f3-ba7f-87fddacd7f0a a rr:TriplesMap .
+km-dev:TriplesMap_677de8eb-6ff4-44aa-b692-2b20cf4b2155 a rr:TriplesMap .
 
-_:node19g7chm0bx1 km-dev:hasTriplesMap km-dev:TriplesMap_9207692c-b1ee-47f3-ba7f-87fddacd7f0a .
+_:node1cq1k2dj2x1 km-dev:hasTriplesMap km-dev:TriplesMap_677de8eb-6ff4-44aa-b692-2b20cf4b2155 .
 
-km-dev:TriplesMap_9207692c-b1ee-47f3-ba7f-87fddacd7f0a km-dev:isPartOfMapping _:node19g7chm0bx1 .
+km-dev:TriplesMap_677de8eb-6ff4-44aa-b692-2b20cf4b2155 km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx8 rr:tableName "positions - positions.tsv" ;
+_:node1cq1k2dj2x5 rr:tableName "positions.txt" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasLogicalTable _:node19g7chm0bx8 .
+_:node1cq1k2dj2x1 km-dev:hasLogicalTable _:node1cq1k2dj2x5 .
 
-km-dev:TriplesMap_9207692c-b1ee-47f3-ba7f-87fddacd7f0a rr:logicalTable _:node19g7chm0bx8 ;
-	rr:subjectMap _:node19g7chm0bx9 .
+km-dev:TriplesMap_677de8eb-6ff4-44aa-b692-2b20cf4b2155 rr:logicalTable _:node1cq1k2dj2x5 ;
+	rr:subjectMap _:node1cq1k2dj2x6 .
 
-_:node19g7chm0bx1 km-dev:hasSubjectMap _:node19g7chm0bx9 .
+_:node1cq1k2dj2x1 km-dev:hasSubjectMap _:node1cq1k2dj2x6 .
 
-_:node19g7chm0bx9 km-dev:isPartOfMapping _:node19g7chm0bx1 ;
+_:node1cq1k2dj2x6 km-dev:isPartOfMapping _:node1cq1k2dj2x1 ;
 	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://xmlns.com/foaf/0.1/Organization1" ;
-	rr:class foaf:Organization ;
-	rr:template "{org_ID}" .
+	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#AcademicDepartment1" ;
+	rr:class vivo:AcademicDepartment ;
+	rr:template "http://vivo.columbia.edu/individual/n{org_ID}" .
 
-km-dev:PredicateObjectMap_dbb5cc85-be66-42cb-a6b2-b1356fb92720 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_58efae64-4b1d-471e-9ac7-42e0f949c55a rr:predicate rdfs:label .
 
-_:node19g7chm0bx10 rr:column "org_name" ;
+_:node1cq1k2dj2x7 rr:column "org_name" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasObjectMap _:node19g7chm0bx10 .
+_:node1cq1k2dj2x1 km-dev:hasObjectMap _:node1cq1k2dj2x7 .
 
-km-dev:PredicateObjectMap_dbb5cc85-be66-42cb-a6b2-b1356fb92720 rr:objectMap _:node19g7chm0bx10 .
+km-dev:PredicateObjectMap_58efae64-4b1d-471e-9ac7-42e0f949c55a rr:objectMap _:node1cq1k2dj2x7 .
 
-km-dev:TriplesMap_9207692c-b1ee-47f3-ba7f-87fddacd7f0a rr:predicateObjectMap km-dev:PredicateObjectMap_dbb5cc85-be66-42cb-a6b2-b1356fb92720 .
+km-dev:TriplesMap_677de8eb-6ff4-44aa-b692-2b20cf4b2155 rr:predicateObjectMap km-dev:PredicateObjectMap_58efae64-4b1d-471e-9ac7-42e0f949c55a .
 
-km-dev:PredicateObjectMap_dbb5cc85-be66-42cb-a6b2-b1356fb92720 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node19g7chm0bx1 .
+km-dev:PredicateObjectMap_58efae64-4b1d-471e-9ac7-42e0f949c55a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
 
-_:node19g7chm0bx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_dbb5cc85-be66-42cb-a6b2-b1356fb92720 .
+_:node1cq1k2dj2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_58efae64-4b1d-471e-9ac7-42e0f949c55a .
+
+km-dev:PredicateObjectMap_9b7a5848-819c-4ac0-b8f6-1c8713a23b1c rr:predicate vlocal:DepartmentID .
+
+_:node1cq1k2dj2x8 rr:column "org_ID" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
+
+_:node1cq1k2dj2x1 km-dev:hasObjectMap _:node1cq1k2dj2x8 .
+
+km-dev:PredicateObjectMap_9b7a5848-819c-4ac0-b8f6-1c8713a23b1c rr:objectMap _:node1cq1k2dj2x8 .
+
+km-dev:TriplesMap_677de8eb-6ff4-44aa-b692-2b20cf4b2155 rr:predicateObjectMap km-dev:PredicateObjectMap_9b7a5848-819c-4ac0-b8f6-1c8713a23b1c .
+
+km-dev:PredicateObjectMap_9b7a5848-819c-4ac0-b8f6-1c8713a23b1c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
+
+_:node1cq1k2dj2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9b7a5848-819c-4ac0-b8f6-1c8713a23b1c .
+
+km-dev:TriplesMap_8a8ef27c-3aab-4e67-aec6-f4a1a631ea13 a rr:TriplesMap .
+
+_:node1cq1k2dj2x1 km-dev:hasTriplesMap km-dev:TriplesMap_8a8ef27c-3aab-4e67-aec6-f4a1a631ea13 .
+
+km-dev:TriplesMap_8a8ef27c-3aab-4e67-aec6-f4a1a631ea13 km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
+
+_:node1cq1k2dj2x9 rr:tableName "positions.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
+
+_:node1cq1k2dj2x1 km-dev:hasLogicalTable _:node1cq1k2dj2x9 .
+
+km-dev:TriplesMap_8a8ef27c-3aab-4e67-aec6-f4a1a631ea13 rr:logicalTable _:node1cq1k2dj2x9 ;
+	rr:subjectMap _:node1cq1k2dj2x10 .
+
+_:node1cq1k2dj2x1 km-dev:hasSubjectMap _:node1cq1k2dj2x10 .
+
+_:node1cq1k2dj2x10 km-dev:isPartOfMapping _:node1cq1k2dj2x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#FacultyMember1" ;
+	rr:class vivo:FacultyMember ;
+	rr:template "http://vivo.columbia.edu/individual/nperson-{UID}" .
+
+km-dev:PredicateObjectMap_f9c9409e-e15e-42e7-96c6-d6f660e6ebae rr:predicate vlocal:UID .
+
+_:node1cq1k2dj2x11 rr:column "UID" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
+
+_:node1cq1k2dj2x1 km-dev:hasObjectMap _:node1cq1k2dj2x11 .
+
+km-dev:PredicateObjectMap_f9c9409e-e15e-42e7-96c6-d6f660e6ebae rr:objectMap _:node1cq1k2dj2x11 .
+
+km-dev:TriplesMap_8a8ef27c-3aab-4e67-aec6-f4a1a631ea13 rr:predicateObjectMap km-dev:PredicateObjectMap_f9c9409e-e15e-42e7-96c6-d6f660e6ebae .
+
+km-dev:PredicateObjectMap_f9c9409e-e15e-42e7-96c6-d6f660e6ebae a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
+
+_:node1cq1k2dj2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f9c9409e-e15e-42e7-96c6-d6f660e6ebae .
+
+km-dev:PredicateObjectMap_44625509-04bc-4ca6-b737-d13bb3ad21ed rr:predicate vivo:hrJobTitle .
+
+_:node1cq1k2dj2x12 rr:column "job_title" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
+
+_:node1cq1k2dj2x1 km-dev:hasObjectMap _:node1cq1k2dj2x12 .
+
+km-dev:PredicateObjectMap_44625509-04bc-4ca6-b737-d13bb3ad21ed rr:objectMap _:node1cq1k2dj2x12 .
+
+km-dev:TriplesMap_8a8ef27c-3aab-4e67-aec6-f4a1a631ea13 rr:predicateObjectMap km-dev:PredicateObjectMap_44625509-04bc-4ca6-b737-d13bb3ad21ed .
+
+km-dev:PredicateObjectMap_44625509-04bc-4ca6-b737-d13bb3ad21ed a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cq1k2dj2x1 .
+
+_:node1cq1k2dj2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_44625509-04bc-4ca6-b737-d13bb3ad21ed .
